@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../wikiversum_schema.xsd">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>No. 30. des Ersten Theils der Gemein-Nachrichten 1807</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>XML-Schema and Header compiled by</resp>
+          <name>Svetlana Yakutina</name>
+          <name>Karina Söhl</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Sabine Hollmann</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text Normalization</resp>
+          <name>Natalia Hanke</name>
+        </respStmt>
+        <respStmt> 
+          <resp>Glossary compiled by</resp>
+          <name>Karina Söhl</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">1</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1807</date>
+        <idno type="Index-ID" source="https://zenodo.org/records/8228850">408</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Erster Theil der Gemein-Nachrichten 1807</title>
+        <biblScope unit="pages">908</biblScope>
+        <idno type="shelfmark">GN.A. 355.</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Erster Theil der Gemein-Nachrichten 1807. - GN.A.355 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend="Handschrift">
+          <msIdentifier>
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type="URN">urn:nbn:de:bsz:14-db-id17450503533</idno>
+            <idno type="PURL">http://digital.slub-dresden.de/id1745050353</idno>
+            <idno type="shelfmark"> GN.A. 355 </idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Reisebericht</term>
+          <term>Überschrift</term>         
+          <term>Lettland</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="NA">
+          <lb/><head>No 30. des Erſten Theils der Gemein⸗Nachrichten 1807.</head>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
