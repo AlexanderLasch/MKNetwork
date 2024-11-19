@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../wikiversum_schema.xsd">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>4. Br. Layriz Rede vor dem Liebesmahl der Kinder und Societaets-Geschwister in Hennersdorf, am Christabend ... d. 24. Dec.</title>
+        <editor>Evangelische Brüder-Unität</editor>
+        <respStmt>
+          <resp>XML-Schema and Header compiled by</resp>
+          <name>Svetlana Yakutina</name>
+          <name>Karina Söhl</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription from eScriptorium compiled by</resp>
+          <name>Theresa Becker</name>
+        </respStmt>
+        <respStmt>
+          <resp>Text Normalization</resp>
+          <name>Navin Jamo</name>
+        </respStmt>
+        <respStmt> 
+          <resp>Glossary compiled by</resp>
+          <name>Karina Söhl</name>
+          <name>Svetlana Yakutina</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="pages">3</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Evangelische Brüder-Unität, Herrnhuter Brüdergemeine</publisher>
+        <pubPlace>Herrnhut</pubPlace>
+        <date>1807</date>
+        <idno type="Index-ID" source="https://zenodo.org/records/8228850">882</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Erster Theil der Gemein-Nachrichten 1807</title>
+        <biblScope unit="pages">378-380</biblScope>
+        <idno type="shelfmark">GN.A. 355.</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl>Erster Theil der Gemein-Nachrichten 1807. - GN.A.355 Nachrichten aus der Brüder-Gemeine</bibl>
+        <msDesc rend="Handschrift">
+          <msIdentifier>
+            <institution> Unitätsarchiv Herrnhut </institution>
+            <idno type="URN">urn:nbn:de:bsz:14-db-id17450503533</idno>
+            <idno type="PURL">http://digital.slub-dresden.de/id1745050353</idno>
+            <idno type="shelfmark"> GN.A. 355 </idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>Religion</term>
+          <term>Rede</term>
+          <term>Predigt</term>
+          <term>Weihnachten</term>
+          <term>Hennersdorf</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p n="378">
+          <lb/> <head>4.) br. <persName>Layriz</persName> Rede vor dem 
+            LiebesMahl der Kinder und 
+            Societaets⸗ Geschwister in <placeName>Henners⸗
+            dorf</placeName>, am Chriſtabend
+          <unclear>[?]</unclear> d. 24. Dec.</head> 
+           
+          <lb/>Geſ: Biß Willkom̄en du edler 
+          <lb/>Gaſt <unclear>[p?]</unclear> Ach mein herzliebes Jeſulein  
+          <lb/>mach dir ein rein ſanft bettelein  
+          <lb/>zu
+          ruhn in meines Herzens⸗Schrein <unclear>[ff?]</unclear>  
+          <lb/>Wen̄ wir uns an einem solchen  
+          <lb/>Feſttage, wie die Chriſt<unclear>[N?]</unclear>acht iſt,  
+          <lb/>verſam̄len, ſo iſt
+          unſers Herzens  
+          <lb/>Wunſch, daß uns die große  
+          <lb/>Sache, deren Andencken wir  
+          <lb/>feyren, vom heiligen Griſt ſo  
+          <lb/>neu, so lebendig und
+          kräftig  
+          <lb/>im Herzen gemacht werden  
+          <lb/>möge, als wen̄ wir vor 1776  
+          <lb/>Jahren mit dabey geweſen wären.  
+          <lb/>Man kans auch würcklich der
+           
+          <lb/>Gnaden⸗ Arbeit des heiligen  
+          <lb/>Geiſtes nachrühmen, daß wen̄  
+          <lb/>Er Herzen findet, denen damit  
+          <lb/>gedient iſt, einen tiefen, neuen
+           
+          <lb/>und lebendigen Eindruck davon  
+          <lb/>zu bekom̄en, Er ihnen solchen gerne  
+          <lb/>ſchenckt. Er kan und will es auch th<unclear>[un?]</unclear>.  
+          <lb/>Er kan uns
+          die große Geſchichte  
+          <lb/><fw type="catch">im </fw></p>
+        <p n="379">
+           
+          <lb/>im Herzen ſo abmahlen, daß wir  
+          <lb/>eben denſelben Eindruck von  
+          <lb/>der Geburt unſers lieben Herrn  
+          <lb/>und Heilands davon tragen, als
+           
+          <lb/>wen̄ wir mit den Hirten in  
+          <lb/>den Stall zu <placeName>Bethlehem</placeName> gegan⸗  
+          <lb/>gen wären, und das Jeſus⸗  
+          <lb/>Kindlein in der Krippr in den
+           
+          <lb/>Windlein gefunden und geſehen  
+          <lb/>hätten.  
+          <lb/>Der Zweck warum wir jezo  
+          <lb/>hier beyſam̄en ſind iſt daher,  
+          <lb/>daß der heilige Geiſt
+          die große  
+          <lb/>Geſchichte dergleichen nicht vorge⸗  
+          <lb/>kom̄en iſt, ſeit dem die Welt ſteht,  
+          <lb/>und auch nicht wieder vorkom̄en  
+          <lb/>wird,
+          daß nehmlich Gottes Sohn  
+          <lb/>als ein armes Menſchen Kind zur  
+          <lb/><unclear>[W?]</unclear>elt geboren worden iſt, allen  
+          <lb/>unſern Herzen ſo neu, ſo lebendig
+           
+          <lb/>und kräftig machen möge, als  
+          <lb/>wenn ſie erſt heute geſchehen,  
+          <lb/>und ein jedes von uns mit dabey  
+          <lb/>geweſen wäre, und hätte das
+           
+          <lb/>Jeſulein in der Krippe in Wind⸗  
+          <lb/>lein geſehen, ſeine zarte Hände  
+          <lb/>geküßt, und Jhn als unſern Herrn  
+          <lb/>und Gott angebetet.
+        </p>
+        <p n="380">
+           
+          <lb/>Das wünſchen wir nicht nur uns  
+          <lb/>überhaupt, ſondern auch beſonders  
+          <lb/>unſern Brüdern, wünſchen wir daß  
+          <lb/>ſie gleich
+          in ihrem erſten zarten Jah⸗  
+          <lb/>ren einen tiefen Eindruck von ihres  
+          <lb/>lieben Jeſuleins geburt bekom̄en und  
+          <lb/>den ſeligſten Genuß
+          davon haben  
+          <lb/>mögen, daß Er ihr Brüderlein wor⸗  
+          <lb/>den, eben ſo wie wir fleiſch  
+          <lb/>und blut an ſich genom̄en, u. da⸗  
+          <lb/>durch eine
+          ewige Errettung und  
+          <lb/>Erlöſung für uns zu wege ge⸗  
+          <lb/>bracht hat. Wenn wir alle mit⸗  
+          <lb/>einander, alt und jung, groß  
+          <lb/>und klein,
+          mit einem ſolchen  
+          <lb/>Herzen beyſam̄en sind, und  
+          <lb/>der Heilige Geiſt findet unſer  
+          <lb/>Herzen offen daß Er uns  
+          <lb/>das große Geheimniß
+          von  
+          <lb/>unſeres Schöpfers Menſchwerdung  
+          <lb/>und geburt recht neu machen  
+          <lb/>kan; dan̄ werden wir ein recht  
+          <lb/>ſeliges Liebesmahl haben.
+           
+          <lb/>Geſ: So halten wir dan̄ Liebes⸗  
+          <lb/>mahl beymlieben Jeſus⸗ Kindlein u.  
+          <lb/>freu&amp;#x27;n uns unſrer Gnadenwahl  
+          <lb/>bey Jhm in
+          seinen Windlein, kom,  
+          <lb/>blutiger Jm anuel, u. laß uns <unclear>[dein genießen?]</unclear> 
+          <lb/><fw type="catch">5.) br.</fw> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
