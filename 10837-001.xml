@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Open Islamicate Texts Initiative (OpenITI)</publisher>
+        <availability>
+          <p>Creative Commons Attribution Non Commercial Share Alike 4.0 International</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+ 
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+          <lb/>20.
+          <lb/>Der Gemein⸗Nachrichten 1787
+          <lb/>28te Woche I Theil
+          <lb/>enthält folgende
+          <lb/>Stücke, die Viſitation des Br. Rei⸗
+          <lb/>chels in Oſtindien betreffend.
+          <lb/>1 1.) Schreiben deſſelben an unſre
+          <lb/>Brüder in Nikobar.
+          <lb/>Herzlichſt geliebte Brüder !
+          <lb/>Es würde mur eine innige Freude
+          <lb/>geweſen ſeyn, wenn es die Umſtände
+          <lb/>erlaubt hätten, euch auf dem Poſten,
+          <lb/>auf welchen Euch unſer Herr geſtellt
+          <lb/>hat, zu beſuchen, mich mit euch über
+          <lb/>euer Herz ſowol als über euren Be⸗
+          <lb/>ruf zu beſprechen, u. an allen euren
+          <lb/>inn⸗ u. äuſſern Vorkom̅enheiten, an
+          <lb/>eurem Wohl u. Weh den herzlichſten
+          <lb/>Antheil zu nehmen. Allein da wir
+          <lb/>in der U. A. Conferenz die Sache ü⸗
+          <lb/>berlegten vor unſerm l. Herrn, ſo
+          <lb/>konten
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
