@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../wikiversum_schema.xsd">
+ xsi:noNamespaceSchemaLocation="https://github.com/AlexanderLasch/MKNetwork/blob/main/wikiversum_schema.xsd">
   <teiHeader>
     <fileDesc>
       <titleStmt>
