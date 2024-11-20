@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" vc:minVersion="1.1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+    <xs:element name="TEI">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="teiHeader">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fileDesc">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titleStmt">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="title" type="xs:string"/>
+                                                    <xs:element name="author" type="xs:string" minOccurs="0" maxOccurs="3"/>
+                                                    <xs:element name="editor" type="xs:string" minOccurs="0" maxOccurs="3"/>
+                                                    <xs:element name="respStmt" minOccurs="0" maxOccurs="5">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="resp" type="xs:string"/>
+                                                                <xs:element name="name" type="xs:string" maxOccurs="5"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="extent">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="measure">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" fixed="pages"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="publicationStmt">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="publisher" type="xs:string" maxOccurs="3"/>
+                                                    <xs:element name="pubPlace" type="xs:string"/>
+                                                    <xs:element name="date" type="xs:string"/>
+                                                    <xs:element name="idno" maxOccurs="5">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required"/>
+                                                                    <xs:attribute name="source" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="seriesStmt" maxOccurs="5">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="title" type="xs:string"/>
+
+                                                    <xs:element name="biblScope">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="unit" use="required" fixed="pages"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="idno" maxOccurs="5">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" use="required"/>
+                                                                    <xs:attribute name="source" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="sourceDesc">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="bibl" type="xs:string"/>
+                                                    <xs:element name="msDesc">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="msIdentifier">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                           <xs:element name="institution" type="xs:string"/>
+                                                                           <xs:element name="idno" maxOccurs="5">
+                                                                           <xs:complexType>
+                                                                           <xs:simpleContent>
+                                                                           <xs:extension base="xs:string">
+                                                                           <xs:attribute name="type" use="required"/>
+                                                                           </xs:extension>
+                                                                           </xs:simpleContent>
+                                                                           </xs:complexType>
+                                                                           </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="rend" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="profileDesc">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="langUsage">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="language" maxOccurs="3">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="ident" use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="textClass">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="keywords">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="term" type="xs:string" maxOccurs="10"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="text">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="body">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="div" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:all>
+                                                    <xs:element name="p" maxOccurs="unbounded">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:all>
+                                                                <xs:element ref="head" minOccurs="0"/>
+                                                                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="fw" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="note" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="term" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="persName" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="placeName" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="orgName" minOccurs="0" maxOccurs="unbounded"/>
+                                                                <xs:element ref="lg" minOccurs="0" maxOccurs="unbounded"/>
+                                                            </xs:all>
+                                                            <xs:attribute name="n" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:all>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="head">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="fw" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="note" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="term" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="persName" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="placeName" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="orgName" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="term">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:all>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="persName">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:all>
+            <xs:attribute name="ref" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="placeName">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="orgName">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="date" type="xs:string"/>
+    <xs:element name="lg">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="l" maxOccurs="unbounded"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="l">
+        <xs:complexType mixed="true">
+            <xs:all>
+                <xs:element ref="lb" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="add" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="del" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="unclear" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="unclear">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="reason" type="xs:string" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="lb">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="add" type="xs:string"/>
+    <xs:element name="del" type="xs:string"/>
+    <xs:element name="fw">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="type" type="xs:string" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="note">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="type" type="xs:string" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
