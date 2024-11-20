@@ -1,0 +1,5 @@
+Mit den _**Gemein-Nachrichten**_ stellt das Unitätsarchiv Herrnhut der weltweiten Evangelischen Brüder-Unität - Herrnhuter Brüdergemeine (Unitas Fratrum / Moravian Church) das älteste und umfangreichste Mitteilungsblatt der Brüdergemeine digital zur Verfügung. Es enthält Berichte aus Gemeinden sowie dem Missions- und Diasporawerk der Brüdergemeine sowie Reden und Lebensläufe. Die _Gemein-Nachrichten_ wurden ab 1765 in Fortsetzung des _Jüngerhaus-Diariums_ (1747-1764) ausschließlich handschriftlich vervielfältigt. In Druck gingen 1817 und 1818 die _Beyträge aus der Brüder-Gemeine_ und zwischen 1819 und 1894 die _Nachrichten aus der Brüder-Gemeine_. Das Nachrichtenblatt fand in den _Mitteilungen aus der Brüder-Gemeine zur Förderung christlicher Gemeinschaft_ ab 1895 bis 1941 seine Fortsetzung.
+
+Das hier vorliegende Datenset umfasst Transkriptionen nach XML-TEI, die in Service-Learning-Seminaren im Kontext des **Moravian Knowledge Network** (MKNetwork) an der Technischen Universität Dresden entstanden und versioniert bei _Zenodo_ veröffentlicht worden sind. 
+
+Das Repositorium bei _github_ dient der weiteren Bearbeitung in verschiedenen Editoren. 
