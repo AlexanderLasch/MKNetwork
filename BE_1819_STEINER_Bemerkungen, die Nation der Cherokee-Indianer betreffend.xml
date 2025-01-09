@@ -844,10 +844,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109103615503",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104422281",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-01-09T09:36:15.503Z",
-	"dcterms:modified": "2025-01-09T09:36:15.503Z",
+	"dcterms:created": "2025-01-09T09:44:22.281Z",
+	"dcterms:modified": "2025-01-09T09:44:22.281Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/tessapohle",
 		"@type": [
@@ -858,7 +858,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109103615503#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104422281#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml",
@@ -872,9 +872,9 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109103615503#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104422281#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/orgName[3]"
+			"rdf:value": "TEI/text/body/div/p[3]/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -921,7 +921,7 @@
         <lb/>Brennholz und andere Bedürfnisse waren in der Nähe,
         <lb/>und konnten von den <orgName key="Cherokee" ref="http://www.wikidata.org/entity/Q105405">Einwohnern</orgName> auf dem Rücken zu
         <lb/>ihren Wohnungen geschafft werden. Die Jagd, und
-        <lb/>was durch sie gewonnen wird, zog die <orgName key="Cherokee" ref="http://www.wikidata.org/entity/Q105405">Männer</orgName> öfters
+        <lb/>was durch sie gewonnen wird, zog die Männer öfters
         <lb/>in entferntere Gegenden; dahin wurden sie aber auch
         <lb/>durch den kriegerischen Geist geführt, der sie besonders
         <lb/>auszeichnet. Auch in letzterer Hinsicht war es für sie
@@ -941,7 +941,7 @@
         <lb/>abzugeben, und Verrichtungen von der Art waren ih<lb/>nen verächtlich.</p>
         <fw>Bey</fw>
         <pb n="344"/>
-    <p>Bey dieser Lebensweise blieb die Nation nicht nur
+    <p>Bey dieser Lebensweise blieb die <orgName key="Cherokee" ref="http://www.wikidata.org/entity/Q105405">Nation</orgName> nicht nur
         <lb/>arm und höchst unwissend, sondern wurde auch von den
         <lb/>sich in's Land drängenden weißen Leuten, hauptsäch-
         <lb type="worddiv"/>lich von herumziehenden Krämern, welche ihnen unter
