@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -187,7 +190,7 @@
             <lb type="worddiv"/>lina den 22. Mai 1833.</head>
         <p>Ich bin den <date when="1758-04-27">27. April 1758</date> zu Bethlehem in
             <lb/>Pensylvanien geboren und von dem seligen Bruder
-            <lb/>Petrus Böhler getauft worden. Als ich etwas
+            <lb/><persName>Petrus Böhler</persName> getauft worden. Als ich etwas
             <lb/>über ein Jahr alt war, wurde ich, nach damaligem
             <lb/>Gebrauch, von meinen Eltern in die Anstalt für
             <lb/>kleine Kinder zu Alt-Nazareth abgegeben. Hier
