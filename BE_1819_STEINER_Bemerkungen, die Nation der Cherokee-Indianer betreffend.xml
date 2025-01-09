@@ -923,10 +923,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104856362",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104926262",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-01-09T09:48:56.362Z",
-	"dcterms:modified": "2025-01-09T09:48:56.362Z",
+	"dcterms:created": "2025-01-09T09:49:26.262Z",
+	"dcterms:modified": "2025-01-09T09:49:26.262Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/tessapohle",
 		"@type": [
@@ -937,7 +937,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104856362#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104926262#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml",
@@ -951,14 +951,14 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104856362#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104926262#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/orgName[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q96158230",
+		"@id": "http://www.wikidata.org/entity/Q105405",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1002,10 +1002,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104926262",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104949879",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-01-09T09:49:26.262Z",
-	"dcterms:modified": "2025-01-09T09:49:26.262Z",
+	"dcterms:created": "2025-01-09T09:49:49.879Z",
+	"dcterms:modified": "2025-01-09T09:49:49.879Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/tessapohle",
 		"@type": [
@@ -1016,7 +1016,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104926262#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104949879#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml",
@@ -1030,14 +1030,14 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104926262#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250109104949879#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/orgName[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
-		"@id": "http://www.wikidata.org/entity/Q105405",
+		"@id": "http://www.wikidata.org/entity/Q36747",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1101,14 +1101,14 @@
         <pb n="344"/>
     <p>Bey dieser Lebensweise blieb die <orgName key="Cherokee" ref="http://www.wikidata.org/entity/Q105405">Nation</orgName> nicht nur
         <lb/>arm und höchst unwissend, sondern wurde auch von den
-        <lb/>sich in's Land drängenden <orgName key="North Americans" ref="http://www.wikidata.org/entity/Q96158230">weißen Leuten</orgName>, hauptsäch-
+        <lb/>sich in's Land drängenden weißen Leuten, hauptsäch-
         <lb type="worddiv"/>lich von herumziehenden Krämern, welche ihnen unter
         <lb/>andern Waaren auch geistige Getränke zuführten, über-
         <lb type="worddiv"/>vortheilt und sittlich verschlimmert. Zu den National-
         <lb type="worddiv"/>lastern gesellten sich nun auch solche, die man bisher
         <lb/>nicht gekannt hatte; nur in dem Ruhme vorzüglich
         <lb/>tapferer Krieger erhielten sich die <orgName key="Cherokee" ref="http://www.wikidata.org/entity/Q105405">Cherokeesen</orgName> noch, und
-        <lb/>davon haben andere Indianer-Stämme und die weis-
+        <lb/>davon haben andere <orgName key="Indigenous peoples of the Americas" ref="http://www.wikidata.org/entity/Q36747">Indianer-Stämme</orgName> und die weis-
         <lb type="worddiv"/>sen Grenzbewohner traurige Erfahrungen machen
         <lb/>müssen.</p>
     <p>Nach und nach setzten sich weiße Leute im Lande,
