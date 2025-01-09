@@ -452,7 +452,7 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?person_annotation_20250109101645909",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:16:45.909Z",
-	"dcterms:modified": "2025-01-09T09:16:45.909Z",
+	"dcterms:modified": "2025-01-09T09:41:30.999Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/tessapohle",
 		"@type": [
@@ -484,7 +484,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q1719303",
+		"@id": "http://www.wikidata.org/entity/Q131715277",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -901,7 +901,7 @@
         <lb type="worddiv"/>rem Lande überhaupt, und insonderheit auf den
         <lb/>Missionsposten der <orgName key="Moravian Church" ref="http://dbpedia.org/resource/Moravian_Church">Brüder in <placeName key="Spring Place, Ga." ref="https://d-nb.info/gnd/7750542-6">Springplace</placeName></orgName>.
         <lb/>Zusammengetragen im Jahr <date when="1819">1819</date>, bey Gelegen-
-        <lb type="worddiv"/>heit eines von dem Br. <persName key="Steiner" ref="http://www.wikidata.org/entity/Q1719303">Abraham Gottlieb
+        <lb type="worddiv"/>heit eines von dem Br. <persName key="Abraham Steiner" ref="http://www.wikidata.org/entity/Q131715277">Abraham Gottlieb
         <lb/>Steiner</persName> aus <placeName key="Winston-Salem, North Carolina" ref="http://dbpedia.org/resource/Winston-Salem,_North_Carolina">Salem</placeName> in <placeName key="North Carolina" ref="http://www.wikidata.org/entity/Q1454">Nord-Carolina</placeName>,
         <lb/>in Auftrag der dasigen Provinzial-Helfer-Con-
         <lb type="worddiv"/>ferenz gemachten Besuchs daselbst.</head>
