@@ -1,12 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmln="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmln="http://www.tei-c.org/ns/1.0">
     <teiHeader>
        <fileDesc> 
            <titleStmt>
             <title> Lebenslauf <author>Georg Heinrich Loskiel</author></title>
         </titleStmt>
        </fileDesc>
-       <editionStmt>
+       <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109095717891",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-09T08:57:17.891Z",
+	"dcterms:modified": "2025-01-09T08:57:17.891Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109095717891#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109095717891#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author/head/title/date/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1814-02-10"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
             </edition>
@@ -18,7 +95,7 @@
             </resp>
         </respStmt>
         <sourceDesc>
-            <msDesc rend ="Handschrift">
+            <msDesc rend="Handschrift">
                 <msIdentifier>
                     <institution>Unitätsarchiv Herrnhut</institution>
                 </msIdentifier>
@@ -40,17 +117,17 @@
             <author type="Er/Sie-Erzähler">    
                 <head>
                     <title> 
-              2.) Der am <date when="1814-02-28"> 28 sten Febr: 1814</date> in <placename>Bethlehem</placename> selig 
+              2.) Der am <date when="1814-02-28"> <date when="1814-02-10" cert="high">28 sten Febr: 1814</date></date> in <placename>Bethlehem</placename> selig 
               <lb/>vollendete verheir[atete]: <persName><roleName type="beruflich">Bruder</roleName> <foreName>Georg Heinrich</foreName> 
-              <lb/> <surName>Loskiel</surName>,<roleName type = "beruflich"> Bischof der Brüderkirche und
+              <lb/> <surName>Loskiel</surName>,<roleName type="beruflich"> Bischof der Brüderkirche und
               <lb/>designiertes Mitglied des Helfer ⸗ Depar⸗
-              <lb />tements in der Unit: Aelt: Conferenz,</roleName> </persName>
+              <lb/>tements in der Unit: Aelt: Conferenz,</roleName> </persName>
               <lb/>hat folgende kurze Nachricht von seinem Le⸗
-              <lb />benslauf hinterlaßen.                          
+              <lb/>benslauf hinterlaßen.                          
                     </title>
                 </head>
             </author>
-                <author type ="Ich-Erzähler">
+                <author type="Ich-Erzähler">
             <lb/>Ich bin geboren den <date when="1740-11-07">7ten Novmbr: 1740</date> zu 
             <lb/><placename>Angermunde</placename> in <placename>Curland</placename>, woselbst mein l[ieber] 
             <lb/><relationName type="Vater"> Vater</relationName> Prediger war, ein treuer Zeuge Jesu, 
@@ -79,7 +156,7 @@
             <lb/>Brüdergemeine gebeten, und nun dieselbe end⸗
             <lb/>lich erhalten hatte, in seiner Gesellschaft über 
             <lb/><placename>Schweden</placename> bey der Gemeine in <placename>Barby</placename> am <date when="1759-07-05">5ten
-            <lb/>July deßelben Jahres </date> ankam.<space unit = "medium">          </space>Am <date when="1759-12-26"> 26 sten Decbr:</date> 
+            <lb/>July deßelben Jahres </date> ankam.<space unit="medium">          </space>Am <date when="1759-12-26"> 26 sten Decbr:</date> 
             <lb/>wurde ich in die Gemeine aufgenom̅en, und am 
             <lb/><date when="1760-09-30"> 30 sten Septbr. 1760</date> des h[eiligen] Abendmahls zum er⸗
             <lb/>stenmal mit der Gemeine theilhaftig. 
@@ -106,7 +183,7 @@
             <lb/>schrecklichen Preße, ohngeachtet ich durch das Lesen 
             <lb/>der 4 Evangelisten, und insonderheit der Leidens⸗
             <lb/>Geschichte Jesu in ein ernstliches Nachdenken 
-           <lb/>kam.<space unit ="medium"> 	</space>Einstmals schlief ich darüber ein, und 
+           <lb/>kam.<space unit="medium"> 	</space>Einstmals schlief ich darüber ein, und 
             <lb/>die Leiden des Heilandes präsentorten sich mir 
             <lb/>darauf im Traum sehr lebhaft. Dies veranlaßte 
             <lb/>wol auf kurtze Zeit ein Wohlseyn in meiner Seele, 
@@ -117,7 +194,7 @@
             <lb/>schenkte, was mich selig machte und mich selig 
             <lb/>				<catchwords>[Kustode: erhalten]</catchwords>            <pb n="[4]"/>
             <lb/>erhalten wird bis zum Uebergang in Seinen Arm 
-           <lb/>und Schoos.<space unit ="medium"> 		</space>In <placename>Barby</placename> studirte 
+           <lb/>und Schoos.<space unit="medium"> 		</space>In <placename>Barby</placename> studirte 
             <lb/>ich Theologie und Medicin, entschloß mich aber, 
             <lb/>mich nur vom l. Heiland brauchen zu laßen, 
             <lb/>wie es Ihm wohl gefiele, ohne mir einen beson⸗
@@ -168,7 +245,7 @@
             <lb/>mit meiner Frau in <placename>Bethlehem</placename> an, wo ich jetzt 
             <lb/>noch bin, und erwarte, ob mein l. Herr mich ganz 
             <lb/>ausspan̅en, oder noch zu ferneren Dienst in 
-            <lb/>Stand setzen will.<space unit ="medium"> 	</space>Ich darf hier nicht erst 
+            <lb/>Stand setzen will.<space unit="medium"> 	</space>Ich darf hier nicht erst 
             <lb/>erin̅ern, daß ich von allen den Specialien, 
             <lb/>die sich während meines Dienstes auf so verschie⸗
             <lb/>denen Posten ereignet haben, nichts habe erwähnen 
@@ -249,7 +326,7 @@
             <lb/>sich eine Entzündung dabey ein, es wurde von Zeit zu 
             <lb/>Zeit schlim̅er, die angewandten Mittel schienen auch 
             <lb/>nicht anzuschlagen, und er hatte den Winter hindurch 
-            <lb/>viel zu leiden.<space unit ="large"> 		</space>Im <date>Frühjahr 1812</date> fanden sich 
+            <lb/>viel zu leiden.<space unit="large"> 		</space>Im <date>Frühjahr 1812</date> fanden sich 
             <lb/>noch andre Kranckheitszufälle ein, wovon er sich 
             <lb/>nach dem Gebrauch dienlicher Mittel jedoch wieder 
             <lb/>erholte. Er bekam nun aber auch eine Wunde 
@@ -317,7 +394,7 @@
             <lb/>Gemeinversam̅lungen ersetzt wurde. 		Am 
             <lb/>liebsten ließ er sich Verse, die vom Heimgange 
             <lb/>zum Herrn und von der vollendeten Gemeine 
-            <lb/>handeln, singen.<space unit ="small"> 	</space><date when="1814-02-25">Am 25 sten dieses Mo⸗
+            <lb/>handeln, singen.<space unit="small"> 	</space><date when="1814-02-25">Am 25 sten dieses Mo⸗
             <lb/>nachts /Febr:/</date> da seine Schwäche seit einigen Tagen 
             <lb/>sehr zugenom̅en hatte, bemerkte man gleich frühe, 
             <lb/>daß seine Sehnsucht bald werde gestillt werden. 
@@ -370,7 +447,7 @@
             <lb/>Lam̅es siehet.<space unit="medium"> 	</space>Seine Gedichte, von denen sich 
             <lb/>verschiedene in unserm Gesangbuche befinden, be⸗
             <lb/>weisen auch, daß sein Herz in der Marter Gottes 
-            <lb/>lebte.<space unite ="small"> 	</space>Auf seine Schriften: 	<bibl> <title author ="Georg Heinrich Loskiel">Geschichte der 
+            <lb/>lebte.<space unite="small"> 	</space>Auf seine Schriften: 	<bibl> <title author="Georg Heinrich Loskiel">Geschichte der 
             <lb/>Mission der evangelischen Brüder unter den Indi⸗
             <lb/>anern in <placename>Nordamerica</placename></title> </bibl>, und: Etwas fürs Herz 
             <lb/>auf dem Wege zur Ewigkeit, - gefiel es dem 
@@ -426,7 +503,7 @@
             <lb/>Ruf habe zu erkennen geben wollen, daß er 
             <lb/>mit seiner Willigkeit, seine Seelen, und Lei⸗
             <lb/>beskräfte noch ferner Seinem Dienste zu weichen, 
-            <lb/>zufrieden sey.<space unit ="medium"> 	</space>Seiner lieben Collegen 
+            <lb/>zufrieden sey.<space unit="medium"> 	</space>Seiner lieben Collegen 
             <lb/>in der Unit[äts]: Aelt[esten]: Conferenz gedachte er oft sehr 
             <lb/>angelegentlich, und wünschte ihnen zu Ausrichtung 
             <lb/>ihrer Geschäfte in den damaligen schwehren Zeiten 
@@ -442,7 +519,7 @@
             <lb/>hin, sich täglich als ein armer Sünder im Blute 
             <lb/>Jesu reinigen zu laßen zur seligen Vollendung
             <lb/>seiner Gnadenwahl, welcher er mit Herzver⸗
-            <lb/>langen entgegensah.<space unit ="large">		</space>Nun wird er, ange⸗
+            <lb/>langen entgegensah.<space unit="large">		</space>Nun wird er, ange⸗
             <lb/>than mit Christi Blut und Gerechtigkeit in 
             <lb/>die Lobgesänge der vollendeten Gerechten mit 
             <lb/>einstim̅en, und Ruhm, Preis und Ehre bringen 
@@ -454,5 +531,3 @@
         </body>
    </text>
 </TEI>
-
-
