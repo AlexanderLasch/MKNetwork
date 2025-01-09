@@ -446,7 +446,7 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_eng.xml?date_annotation_20250109103203993",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:32:03.993Z",
-	"dcterms:modified": "2025-01-09T09:32:03.993Z",
+	"dcterms:modified": "2025-01-09T09:39:19.535Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/liesafee",
 		"@type": [
