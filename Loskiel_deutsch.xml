@@ -4229,6 +4229,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?place_annotation_20250109163944799",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-09T15:39:44.799Z",
+	"dcterms:modified": "2025-01-09T15:39:44.799Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?place_annotation_20250109163944799#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?place_annotation_20250109163944799#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[3]/placename[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/Barby,_Germany",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?place_annotation_20250109164010269",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-09T15:40:10.269Z",
+	"dcterms:modified": "2025-01-09T15:40:10.269Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?place_annotation_20250109164010269#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?place_annotation_20250109164010269#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[3]/placename[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q30",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
@@ -4407,9 +4565,9 @@
             <lb/>Es kan̅ hier wol am füglichsten nachgetragen 
             <lb/>werden, daß unser sel[iger] Bruder <date when="1768-05-22"> am <date when="1768-05-22">22 sten May
             <lb/>1768</date></date> in <placename>Zeist</placename> die Ordination zu einem Diacono 
-            <lb/>und <date when="1775-03-29"> am <date when="1775-03-29" cert="high">29 sten Merz 1775</date></date> in <placename>Barby</placename> zu einem 
+            <lb/>und <date when="1775-03-29"> am <date when="1775-03-29" cert="high">29 sten Merz 1775</date></date> in <placename><placeName key="Barby, Germany" ref="http://dbpedia.org/resource/Barby,_Germany">Barby</placeName></placename> zu einem 
             <lb/>Presbyter der Brüderkirche erhalten hat, und 
-            <lb/>daß er vor seiner Abreise nach <placename>America</placename> 
+            <lb/>daß er vor seiner Abreise nach <placename><placeName key="United States" ref="http://www.wikidata.org/entity/Q30">America</placeName></placename> 
             <lb/>am <date when="1902-03-14">14 ten Merz 1902 </date> durch den Br[uder] Joh, Friedr. 
             <lb/>Reichel unter Assistenz der <persName><addName>Brüder</addName> </persName> <persName><foreName>Liebisch </foreName>
             <pb n="[7]"/>
