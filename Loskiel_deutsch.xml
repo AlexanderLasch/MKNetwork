@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmln="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+       <fileDesc> 
+           <titleStmt>
+            <title> Lebenslauf <author>Georg Heinrich Loskiel</author></title>
+        </titleStmt>
+       </fileDesc>
+       <editionStmt>
+           <edition>
+                <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
+            </edition>
+       </editionStmt>
+        <respStmt> 
+            <resp>
+                <name>Linda Mäder</name>, <name> Svetlana Yakutina</name>, <name>Henrik Selle</name>,
+                <name>Paul Zimmermann</name>, <name>Julius Titz</name> 
+            </resp>
+        </respStmt>
+        <sourceDesc>
+            <msDesc rend ="Handschrift">
+                <msIdentifier>
+                    <institution>Unitätsarchiv Herrnhut</institution>
+                </msIdentifier>
+            </msDesc>
+        </sourceDesc> 
+        <profileDesc>
+            <person>
+                <sex value="male">
+                    <name> Georg Heinrich Loskiel</name>                   
+                </sex>
+            </person>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+            </teiHeader>    
+    <text>
+        <body> 
+            <author type="Er/Sie-Erzähler">    
+                <head>
+                    <title> 
+              2.) Der am <date when="1814-02-28"> 28 sten Febr: 1814</date> in <placename>Bethlehem</placename> selig 
+              <lb/>vollendete verheir[atete]: <persName><roleName type="beruflich">Bruder</roleName> <foreName>Georg Heinrich</foreName> 
+              <lb/> <surName>Loskiel</surName>,<roleName type = "beruflich"> Bischof der Brüderkirche und
+              <lb/>designiertes Mitglied des Helfer ⸗ Depar⸗
+              <lb />tements in der Unit: Aelt: Conferenz,</roleName> </persName>
+              <lb/>hat folgende kurze Nachricht von seinem Le⸗
+              <lb />benslauf hinterlaßen.                          
+                    </title>
+                </head>
+            </author>
+                <author type ="Ich-Erzähler">
+            <lb/>Ich bin geboren den <date when="1740-11-07">7ten Novmbr: 1740</date> zu 
+            <lb/><placename>Angermunde</placename> in <placename>Curland</placename>, woselbst mein l[ieber] 
+            <lb/><relationName type="Vater"> Vater</relationName> Prediger war, ein treuer Zeuge Jesu, 
+            <lb/>welcher er auch unabläßig blieb bis zu seinem 
+            <lb/>Heimgang den <date when="1780-08-02"> 2ten August 1780</date>. Meine <persname> <relationName type="Mutter">Mutter </relationName>
+            <lb/>war eine geborne <surName type="geburtsname">Hoffman̅</surName></persname>, aus <placename>Liefland</placename> ge⸗
+                    <lb/>bürtig. Diesen meinen l[ieben] <relationName type="Eltern">Eltern </relationName> werde ich 
+            <lb/>noch in der Ewigkeit nachrühmen, daß sie mir 
+            <lb/>die beste und sorgfältigste Erziehung haben an⸗
+            <lb/>gedeihen laßen. Uebrigens will ich diejeni⸗
+            <lb/>gen, die meinen Lebenslauf hören oder lesen, 
+            <lb/>mit keiner weitläufigen Erzählung belästigen 
+            <lb/>von dem, was in meinen Jugendjahren vorge⸗
+            <lb/>kom̅en ist, es ist dem ähnlich, wie es auch an⸗
+            <lb/>dern Menschenkindern widerfährt. Ins Ganze 
+            <lb/>				<catchwords>[Kustode: war] </catchwords>
+            <pb n="[2]"/>    
+            <lb/>war es für mich eine freudvolle Zeit, die sich 
+            <lb/>nur durch das auszeichnete, was der Heiland in 
+            <lb/>der Stille an mir that, wovon gleichwol noch in 
+            <lb/>der Ewigkeit meine Loblieder tönen werden. 
+            <lb/>Im <date when="1748">Jahr 1748</date> kam der <persname> Br[uder] <foreName>Joh.</foreName> <surName>Hüffel</surName> aus
+            <lb/>der Brüdergemeine als <roleName type="beruflich">Kinderlehrer in mei⸗
+            <lb/>nes Vaters Haus</roleName></persname>, und blieb bis <date>1759</date> daselbst; 
+            <lb/>da ich, nachdem ich 3 Jahre um die Erlaubniß zur
+            <lb/>Brüdergemeine gebeten, und nun dieselbe end⸗
+            <lb/>lich erhalten hatte, in seiner Gesellschaft über 
+            <lb/><placename>Schweden</placename> bey der Gemeine in <placename>Barby</placename> am <date when="1759-07-05">5ten
+            <lb/>July deßelben Jahres </date> ankam.<space unit = "medium">          </space>Am <date when="1759-12-26"> 26 sten Decbr:</date> 
+            <lb/>wurde ich in die Gemeine aufgenom̅en, und am 
+            <lb/><date when="1760-09-30"> 30 sten Septbr. 1760</date> des h[eiligen] Abendmahls zum er⸗
+            <lb/>stenmal mit der Gemeine theilhaftig. 
+            <lb/>Was in dieser ganzen Zeit <date from="1748" to="1760">von 1748 bis 1760 </date> 
+            <lb/>in meiner armen Seele vorging, wie ich vom 
+            <lb/>Unglauben gequält wurde, und welche augenscheinliche 
+            <lb/>Beweise von Gottes Aufsuchen und Bewahrung 
+            <lb/>meines Othems ich erfuhr, z. B. da ich in einen 
+            <lb/>Kußel voll siedenden Waßers fiel, wieder ein 
+            <lb/>andermal, wie ich in einen Strudel kalten Waßers 
+            <lb/>fiel; wieder ein andermal, da ich von einem spitzigen 
+            <pb n="[3]"/>
+            <lb/>Tafelwaßer, das nach meinem [ul] in der größ⸗
+            <lb/>ten [ul] geworfen wurde, getroffen und bey⸗
+            <lb/>nahe ums Leben gebracht wurde; wie ich in 
+            <lb/>meinem 13ten Jahre von einem Pferde geschleift, 
+            <lb/>und wunderbarer Weise gleichsam aus dem Na⸗
+            <lb/>hen des Todes herausgerißen wurde, _ davon 
+            <lb/>wäre zum Preise und Ruhme des meines l. 
+            <lb/>Herrn viel zu sagen, es bleibe aber aufge⸗
+            <lb/>hoben bis vor Seinem Throne, wo nichts als Wahr⸗
+           <lb/>heit bestehen wird.<space unit="small"> 	</space>Mein Herz blieb in der 
+            <lb/>ganzen Zeit bey tausend Abwechselungen in der 
+            <lb/>schrecklichen Preße, ohngeachtet ich durch das Lesen 
+            <lb/>der 4 Evangelisten, und insonderheit der Leidens⸗
+            <lb/>Geschichte Jesu in ein ernstliches Nachdenken 
+           <lb/>kam.<space unit ="medium"> 	</space>Einstmals schlief ich darüber ein, und 
+            <lb/>die Leiden des Heilandes präsentorten sich mir 
+            <lb/>darauf im Traum sehr lebhaft. Dies veranlaßte 
+            <lb/>wol auf kurtze Zeit ein Wohlseyn in meiner Seele, 
+            <lb/>aber ich fühlte mich hernach so unbekehrt und 
+            <lb/>ungläubig als jemals, bis zu meinem Bekeh- 
+            <lb/>rungstage, da der Heiland sich nur als mein 
+            <lb/>Versöhner offenbarte, und mir das ins Herz 
+            <lb/>schenkte, was mich selig machte und mich selig 
+            <lb/>				<catchwords>[Kustode: erhalten]</catchwords>            <pb n="[4]"/>
+            <lb/>erhalten wird bis zum Uebergang in Seinen Arm 
+           <lb/>und Schoos.<space unit ="medium"> 		</space>In <placename>Barby</placename> studirte 
+            <lb/>ich Theologie und Medicin, entschloß mich aber, 
+            <lb/>mich nur vom l. Heiland brauchen zu laßen, 
+            <lb/>wie es Ihm wohl gefiele, ohne mir einen beson⸗
+            <lb/>dern Plan zu machen, und nur daraus zu 
+            <lb/>sehen, daß sein Herze mit mir sey. 
+            <lb/><date when="1765-09"> Ao 1765 im Septbr</date>: erhielt ich meinen ersten 
+            <lb/>Ruf als Lehrer im Pædagogio zu <placename>Niesky</placename> 
+            <lb/><date>1766</date> nach <placename>Neuwied</placename> und <date>1768</date> nach <placename>Marienborn</placename>
+            <lb/>in der <placename>Wetterau</placename> als <persName>Prediger und Chorhelfer 
+            <lb/>der ledigen Brüder</persName>. 	Mit eben dem Auftrage 
+            <lb/>wurde ich auf dem Synodo <date>1769</date> nach <placename>Amsterdam</placename> 
+            <lb/>berufen. <date when="1771-06-27"> 1771 den 27 sten Juny</date> trat ich mit der 
+            <lb/>led[igen] <persname> <relationName type="Ehefrau">Schw[ester] <foreName>Mar. Magdalena</foreName> <surName type="Mädchenname">Barlach</surName></relationName></persname> in 
+            <lb/>die Ehe, die wir als vor Gottes Augen bey 
+            <lb/>Gebruch und Fühle, doch sehr vergnügt geführt 
+           <lb/>haben.<space uinit="medium">		</space>In der Folge kamen wir nach <placeName>Zeist</placeName>,
+            <lb/>wo ich für den <persname>Br[uder] <foreName>Heinr.</foreName> <surName> v. Bruiningk</surName></persname> 
+            <lb/>¾ Jahr vicarierte. Von hier wurden wir 
+            <lb/>nach <placename> Kleinwelke</placename> berufen, wo ich als <persName type="Loskiel"><roleName type="beruflich">Gemein⸗
+            <lb/>helfer, Prediger und Ehechorpfleger</roleName></persName> <date from="1775" to="1781"> von 1775 
+            <lb/>bis 1781</date> diente, worauf ich in <placename>Barby</placename> einige 
+            <pb n="[5]"/>
+            <lb/>Monate ausruhte, dan̅  <date>1782</date>auf den Synodum 
+            <lb/>ging, und von demselben den Auftrag erhielt, als 
+            <lb/>Helfer ins Ganze nach <placename>Liefland</placename> zu gehen, wozu 
+            <lb/>hernach noch kam, daß ich die Agentschaft der 
+            <lb/>Brüder in <placename>Petersburg</placename> und die Predigt des Evan⸗
+            <lb/>gelii in der dortigen Brüderkirche übernahm. 
+            <lb/>Die Besorgung des weitläufigen Plans in <placename>Lief⸗
+            <lb/>land</placename> erforderte es, daß ich viel herumreisen mußte. 
+            <lb/>Auf dem Synodo <date>1789</date> erhielt ich meine Amstel⸗
+            <lb/>lung als Gemeinhelfer und Ehechorpfleger in 
+            <lb/><placename>Gnadenfrey</placename>.<space unit="medium"> 	</space>Hier erlebte ich den bekan̅ten 
+            <lb/>großen Brand <date>1792</date>, so wie den Wiederaufbau 
+            <lb/>des Ortes.<space unit="small">    </space><date>Ao 1794</date> erhielt ich einen Ruf 
+            <lb/>nach <placename>Niesky</placename>, wo ich als Gemeinhelfer und Ehechor⸗
+            <lb/>pfleger angestellt war, bis ich <date>1798</date> nach <placename>Herrn⸗
+            <lb/>hut</placename> berufen wurde. Hier war ich <date notafter="1802">bis 1802</date>, 
+            <lb/>da ich vom Synodo <date>1801</date> den Auftrag erhalten hatte, 
+            <lb/>nach <placename>Nordamerica</placename> zu gehen, daselbst die Sache 
+            <lb/>des Herrn ins Ganze in den <placename>pensilvanischen und 
+            <lb/>umliegenden Gemeinen</placename>, und der Gemeine in 
+            <lb/><placename>Bethlehem</placename> als Gemeinhelfer und Prediger zu 
+            <lb/>dienen.<space unit="medium"> 	</space><date when="1801-07-23"> Am 23 sten July deßelben Jahrs</date> kam 
+            <lb/>ich nach einer glücklichen Reise zu Land und See 
+            <lb/>				<catchwords>[Kustode: mit]</catchwords>
+            <pb n="[6]"/>
+            <lb/>mit meiner Frau in <placename>Bethlehem</placename> an, wo ich jetzt 
+            <lb/>noch bin, und erwarte, ob mein l. Herr mich ganz 
+            <lb/>ausspan̅en, oder noch zu ferneren Dienst in 
+            <lb/>Stand setzen will.<space unit ="medium"> 	</space>Ich darf hier nicht erst 
+            <lb/>erin̅ern, daß ich von allen den Specialien, 
+            <lb/>die sich während meines Dienstes auf so verschie⸗
+            <lb/>denen Posten ereignet haben, nichts habe erwähnen 
+            <lb/>wollen. Dabey will ich auch laßen, nehme alles 
+            <lb/>zusam̅en, und bete meinen gnadenvollen Herrn 
+            <lb/>im Staube an für alle Beweise Seiner Barm⸗
+            <lb/>herzigkeit, für Seine Geduld, für Sein unermü⸗
+            <lb/>detes Vergeben, und für Seine mehr als zärtliche 
+            <lb/>Liebe, womit Er mich, als Sein ärmstes Schäflein 
+            <lb/>in Seinem Busen getragen hat.“
+       </author>
+        <author type="Er/Sie-Erzähler"> 
+            <lb/>So weit geht seine eigene Nachricht. 
+            <lb/>Es kan̅ hier wol am füglichsten nachgetragen 
+            <lb/>werden, daß unser sel[iger] Bruder <date when="1768-05-22"> am 22 sten May
+            <lb/>1768</date> in <placename>Zeist</placename> die Ordination zu einem Diacono 
+            <lb/>und <date when="1775-03-29"> am 29 sten Merz 1775</date> in <placename>Barby</placename> zu einem 
+            <lb/>Presbyter der Brüderkirche erhalten hat, und 
+            <lb/>daß er vor seiner Abreise nach <placename>America</placename> 
+            <lb/>am <date when="1902-03-14">14 ten Merz 1902 </date> durch den Br[uder] Joh, Friedr. 
+            <lb/>Reichel unter Assistenz der <persName><addName>Brüder</addName> </persName> <persName><foreName>Liebisch </foreName>
+            <pb n="[7]"/>
+            <lb/>und<foreName> Hubner</foreName></persName> zu einem Bischof der Brüderkirche 
+            <lb/>confecrirt worden ist. 
+            <lb/>Seine l. Frau fügt noch folgendes hinzu: 
+            <lb/><date when="1810-12-20">Am 20 sten Decmbr. 1810</date> erhielt mein l. Man̅ von 
+            <lb/>der Unit[ät] Aelt[esten] Conferenz seinen Abruf von sei⸗
+            <lb/>nen hiesigen Aemtern, und zugleich die Weisung, 
+            <lb/>nach <placename>Europa</placename> zurückzukehren. 	Er hatte schon vor 
+            <lb/>einiger Zeit über ein gewißes Preßen auf dem 
+            <lb/>obern Theile seines Kopfs, welches mit Schwindel 
+            <lb/>begleitet war, geklagt. Im folgenden Monat 
+            <lb/>Januar nahm dieser Schwindel so zu, daß er 
+            <lb/>einstmals, da er an seinem Tische beschäftigt war, 
+            <lb/>plötzlich niedersank; doch ward er sich gleich wieder 
+            <lb/>gegenwärtig; er fühlte sich aber so schwach, daß 
+            <lb/>er sich genöthigt sah, sich zu Bette zu legen. Nach 
+            <lb/>einigen Stunde kon̅te er jedoch wieder seine Ge⸗
+            <lb/>schäfte fortsetzen.<space unit="small"> 	</space>In der Charwoche besorgte 
+            <lb/>er alle Versam̅lungen, wozu ihn der Heiland auf 
+            <lb/>eine ausgezeichnete Weise stärckte, und sich sehr 
+            <lb/>fühlbar dazu bekan̅te.<space unit="small"> 	</space>Anfangs May rei⸗
+            <lb/>sten wir in Gesellschaft der Gechw[ister] <persName> van Vleck </persName>
+            <lb/>nach <placename>Litiz</placename>. In <placename>Reading</placename> überfiel ihn beym 
+            <lb/>Aussteigen aus dem Wagen eine solche Schwäche, 
+            <lb/>				<catchwords>[Kustode: daß]</catchwords> 
+            <pb n="[8]"/>
+            <lb/>daß man befürchtete, er würde nicht weiter können. 
+            <lb/>Dies kon̅te jedoch am folgenden Tage geschehen, 
+            <lb/>nachdem er sich in der Nacht wieder etwas er⸗
+            <lb/>holt hatte. Er fühlte sich aber noch sehr schwach, 
+            <lb/>und es beküm̅erte ihn sehr, daß er den ihm von 
+            <lb/>der Unit[ät] Aelt[esten] Conferenz geschehenen Auftrag, 
+            <lb/>den<persName><addName> Br[uder] </addName><foreName>Joh. </foreName><surName>Herbst</surName></persName> in <placename>Litiz</placename> mit Assistenz 
+            <lb/>des<persName><addName> Br[uder]</addName><foreName>Carl</foreName> <surName>Gotth</surName></persName>. Reichel zu einem Bischof 
+            <lb/>der Brüderkirche zu ordinieren, nicht würde aus⸗
+            <lb/>richten können. Er flehete deswegen inbrün⸗
+            <lb/>stig zum Heiland, der ihn auch zu dieser Hand⸗
+            <lb/>lung auf eine außerordentliche Weise stärckte, 
+            <lb/>und sich mit besonderer Kraft und Gnade dazu 
+            <lb/>bekan̅te. er kon̅te hernach auch das Chor⸗ Abend⸗
+            <lb/>mahl der verehlichten Geschwister halten. 
+            <lb/>Als wir in Gesellschaft der <persName> Geschw[ister] <foreName>Reichel</foreName> </persName>nach 
+            <lb/><placename>Bethlehem</placename> zurückgekehrt waren, so übergab er 
+            <lb/>seine Geschäfte als Præses der Helfer⸗Confe⸗
+            <lb/>renz fürs Ganze der <placename>pensilvanischen und umlie⸗
+            <lb/>genden Gegenden</placename>, und als Gemeinhelfer und Pre⸗
+            <lb/>diger der hiesigen Gemeine, an<persName><addName> Br[uder] </addName><foreName>Reichel</foreName></persName>
+            <lb/>Den Som̅er hindurch ging es mit seiner Gesund⸗
+            <lb/>heit ziemlich erträglich, und er kon̅te, ohngeachtet
+            <pb n="[9]"/>
+            <lb/>einer Schwäche im Rücken und in den Knien, zu seinem 
+            <lb/>Vergnügen noch manchmal spatzieren gehen. Bey einem 
+            <lb/>derselben, ohngefähr in der <date>Mitte des Octobers</date>, hatte 
+            <lb/>er das Unglück, sich an dem Aste eines umgehauenen 
+            <lb/>Baumes, der über den Weg lag, am lincken Bein zu 
+            <lb/>stoßen und zu verwunden. Nach einigen Tagen fand 
+            <lb/>sich eine Entzündung dabey ein, es wurde von Zeit zu 
+            <lb/>Zeit schlim̅er, die angewandten Mittel schienen auch 
+            <lb/>nicht anzuschlagen, und er hatte den Winter hindurch 
+            <lb/>viel zu leiden.<space unit ="large"> 		</space>Im <date>Frühjahr 1812</date> fanden sich 
+            <lb/>noch andre Kranckheitszufälle ein, wovon er sich 
+            <lb/>nach dem Gebrauch dienlicher Mittel jedoch wieder 
+            <lb/>erholte. Er bekam nun aber auch eine Wunde 
+            <lb/>am rechten Bein, die überaus schmerzhaft war. 
+            <lb/>Dieses, und eine Schwehre und Schwäche im Kopf 
+            <lb/>nöthigte ihn, auf seiner Stube zu bleiben, und es 
+            <lb/>wurde ihm auch bald unmöglich, in derselben auf 
+            <lb/>und abzugehen. Das beständige Sitzen hatte 
+            <lb/>unter andern auch die Folge, daß Seine Wunden 
+            <lb/>sich vermehrten. Er ertrug es aber mit stiller Ge⸗
+            <lb/>laßenheit.<space unit="small"> 	</space>Im <date>Frühjahr 1813</date> schien er sich 
+            <lb/>etwas zu erholen, und er ging einigemal mit vieler 
+            <lb/>Mühe die Treppe hinunter, um die freye Luft 
+            <lb/>				<catchwords>[Kustode: zu]</catchwords> 
+            <pb n="[10]"/>
+            <lb/>zu genießen. Es wurde auch versucht, ob ihm eine 
+            <lb/>kurtze Spazierfahrt zusagen werde. Das Be⸗
+            <lb/>schwehrliche des Ein⸗ und Aussteigens in und aus 
+            <lb/>dem Wagen vernichtete aber das Gute, was 
+            <lb/>er davon hätte haben können. 	Am <date when="1813-06-02">2ten Juny</date>,
+            <lb/>da eben ein Arzt bey ihm war, überfiel ihn ein 
+            <lb/>starckes Fieber, daß er ins Bette getragen wer⸗
+            <lb/>den mußte; er war auf kurze Zeit nicht im Stande, 
+            <lb/>etwas zu reden. Dieser Zufall schwächte ihn 
+            <lb/>noch mehr, und verursachte ihm große Beängstigungen. 
+            <lb/>Nach einigen Monaten kam es jedoch wieder dahin, 
+            <lb/>daß er einige Stunde des Tages, wiewol in großer 
+            <lb/>Schwachheit aufsitzen kon̅te; er versuchte es auch 
+            <lb/>dan̅ und wan̅ zu gehen, aber es war keine Kraft 
+            <lb/>in seinen Beinen, und heftige Rückenschmerzen 
+            <lb/>waren dabey auch ein Hinderniß. 	Bey dem 
+            <lb/>Zusam̅endrängen von Leiden, wobey man ihn oft 
+            <lb/>nicht ohne Thränen ansehen kon̅te, war er freundlich 
+            <lb/>und liebhabend gegen alle, die ihn besuchten , nur 
+            <lb/>machte es ihm viel Kum̅er, daß er mit den Be⸗
+            <lb/>suchenden nicht viel und nur sachte reden kon̅te. 
+            <lb/>Wen̅ er auch ganze Nächte schlaflos zugebracht 
+            <lb/>hatte, so sah man ihn doch nicht ungeduldig, sondern 
+            <pb n="[11]"/>
+            <lb/>er war dankbar für des Heilands durchhülfe, und 
+            <lb/>für Seine liebe Nähe, die ihm alles erträglich mache, 
+            <lb/>und sagte öfter: Wie schön macht es der liebe 
+            <lb/>Heiland mit mir!“<space unit="small">	</space><date when="1813-09"> Im Septbmr:</date> verur⸗
+            <lb/>sachte ein Schmerz in der Seite, daß er im Bette 
+            <lb/>mehr sitzen als liegen mußte; jedoch wurde ihm 
+            <lb/>bald Erleichterung verschafft. Seine Gemüths⸗
+            <lb/>Kräfte wurden durch heftiges Kopfweh sehr ge⸗
+            <lb/>schwächt. In den lezten Monaten seines Le⸗
+            <lb/>bens litt er außerordentlich und hauptsächlich 
+            <lb/>an einer Wunde auf dem Rücken; seine Ge⸗
+            <lb/>duld blieb aber unveränderlich, und er tröstete 
+            <lb/>sich damit, daß alles Leid dieser Zeit sich der⸗
+            <lb/>einst in unaussprechliche Freude verwandeln, 
+            <lb/>und durch das Anschauen des Heilands und Seiner 
+            <lb/>Wunden in einem Augenblick vergeßen seyn werde. 
+            <lb/>Die Sehnsucht nach diesem Glück trug er schon viele 
+            <lb/>Jahre mit sich herum, und er kon̅te sich nicht satt dar⸗
+            <lb/>über meditiren, was das heiße, die Hoffnung zu 
+            <lb/>haben, nach vollendeten Glaubenslaufe dem Heiland 
+            <lb/>zu sehen, wie Er ist.<space unit="small"> 	</space>Es war ihm besonders 
+            <lb/>angenehm, daß öfters bey seinem Bette gesungen 
+            <lb/>und gespielt, und ihm dadurch der Verlust der 
+            <lb/>				<catchwords>[Kustode: Gemein⸗] </catchwords>
+            <pb n="12"/>
+            <lb/>Gemeinversam̅lungen ersetzt wurde. 		Am 
+            <lb/>liebsten ließ er sich Verse, die vom Heimgange 
+            <lb/>zum Herrn und von der vollendeten Gemeine 
+            <lb/>handeln, singen.<space unit ="small"> 	</space><date when="1814-02-25">Am 25 sten dieses Mo⸗
+            <lb/>nachts /Febr:/</date> da seine Schwäche seit einigen Tagen 
+            <lb/>sehr zugenom̅en hatte, bemerkte man gleich frühe, 
+            <lb/>daß seine Sehnsucht bald werde gestillt werden. 
+            <lb/>Nachmittag gegen 5 Uhr, da es sich deutlich zeigte, 
+            <lb/>daß der von ihm so sehnlich gewünschte Augenblick 
+            <lb/>seiner Erlösung von aller Noth herannahe, em⸗
+            <lb/>pfing er den Segen des Herrn und der Gemeine
+            <lb/>im Gefühl der nahem Gegenwart des Heilands, 
+            <lb/>und bald darauf entschlief er recht sanft, und seine 
+            <lb/>theuer erkaufte Seele ging aus der Liebeshöln in 
+            <lb/>die für ihn durchbohrte Hand des Heilandes. 
+            <lb/>Ich gönn meinem lieben seligen Mann, den ich 
+            <lb/>als ein nur geschenktes Kleinod schätzte, in deßen 
+            <lb/>Umgang ich viele Segen genoßen, deßen Zärt⸗
+            <lb/>lichkeit, Liebe und Geduld, und über alles seine 
+            <lb/>Anfänglichkeit an den Heiland, mit unvergeßlich 
+            <lb/>bleiben wird, bey meinem tiefen Schmerz über 
+            <lb/>die Tren̅ung von ihm, von Herzen das ihm zu 
+            <lb/>Theil gewordene him̅lische Wohlergehen, den Hei⸗
+            <lb/>				<catchwords>[Kustode: land]</catchwords> 
+            <pb n="13"/>
+            <lb/>land dorf zu sehn und bey Ihm auszuruhen. 
+            <lb/>Wie gut wird er es dort haben, sich ewig an Ihm 
+            <lb/>laben, wie unbeschreiblich wohl wird es ihm thun! 
+            <lb/>Ach die hiesige Gemeine, welcher unser selig 
+            <lb/>vollendeter Bruder gegen 9 Jahre mit Treue und 
+            <lb/>Angelegenheit und mit Segen als Gemeinhelfer 
+            <lb/>und Prediger gedient hat, erkennet seinen treuen 
+            <lb/>Dienst mit vieler Dankbarkeit, und wünschet ihm 
+            <lb/>dafür nach so manchen überstandenen Kum̅er, und 
+            <lb/>Leidensstunden einen reichen Gnadenlohn und die 
+            <lb/>Erquickung an Jesu Wunden, wornach er sich als ein 
+            <lb/>müder Wanderer so in̅iglich gesehnet hat. 
+            <lb/>Da er Seine Nachricht von seinem Lebenslauf 
+            <lb/>damit beschließt, daß er keine Specialien, die sich 
+            <lb/>während seines Dienstes bey der Brüder⸗Unität 
+            <lb/>ereignet haben, habe erwähnen wollen, so wollen 
+            <lb/>wir mit ihm es auch dabey laßen, und nur so viel 
+            <lb/>bemerken, daß sein Wunsch, den er beym Antritt 
+            <lb/>seines Dienerganges hatte, nemlich, daß das Herz 
+            <lb/>Jesu mit ihm seyn möge, reichlich erfüllt worden ist. 
+            <lb/>Er verkündigte den Tod des Herrn aller Orten, wo er 
+            <lb/>hie berufen wurde, mit einem warmen Herzen, und der 
+            <lb/>Heiland legte Seinen Segen darauf.<space unit="medium"> 	</space>Ohne Zweifel 
+            <lb/>				<catchwords>[Kustode: findet]</catchwords> 
+            <pb n="14"/>
+            <lb/>findet er nun auch den Wunsch erfüllet, daß er 
+            <lb/>viele von denen, die hienieden sein Zeugniß von 
+            <lb/>der Versöhnung gehört haben, vor dem throne des 
+            <lb/>Lam̅es siehet.<space unit="medium"> 	</space>Seine Gedichte, von denen sich 
+            <lb/>verschiedene in unserm Gesangbuche befinden, be⸗
+            <lb/>weisen auch, daß sein Herz in der Marter Gottes 
+            <lb/>lebte.<space unite ="small"> 	</space>Auf seine Schriften: 	<bibl> <title author ="Georg Heinrich Loskiel">Geschichte der 
+            <lb/>Mission der evangelischen Brüder unter den Indi⸗
+            <lb/>anern in <placename>Nordamerica</placename></title> </bibl>, und: Etwas fürs Herz 
+            <lb/>auf dem Wege zur Ewigkeit, - gefiel es dem 
+            <lb/>Heiland auch einen besondern Segen zu legen. 
+            <lb/>Ein besonderer Zug seines Characters war, zu 
+            <lb/>weinen mit den Weinenden, und sich zu freuen 
+            <lb/>mit den Fröhlichen. 	Armen zu helfen und Gutes 
+            <lb/>zu thun war seine Lieblingsneigung, und es that 
+            <lb/>ihm oft wehe, wen̅ er dieser Neigung nicht nach 
+            <lb/>Wunsch Genüge thun kon̅te.<space unit="medium">	</space>Im Jahr <date when="1803">1803</date> 
+            <lb/>hatte er das Vergnügen, die Indianergemeine in 
+            <lb/><placename>Gosen am Muskingum</placename> zu besuchen, welches 
+            <lb/>ihm um so angenehmer war, da er durch die Her⸗
+            <lb/>ausgabe der Indianer⸗Missionsgeschichte eine 
+            <lb/>besondere Liebe für dieselbe bekom̅en und sie 
+            <lb/>im̅er ein besonderes Object seines Gebetes war 
+            <pb n="15"/>
+            <lb/>und blieb. So hat er auch alle Stadt⸗ [u.] Landge⸗
+            <lb/>meinen, die unter der Berathung der hiesigen 
+            <lb/>Helfer⸗Conferenz fürs Ganze stehen, zu gegen⸗
+            <lb/>seitigem Vergnügen besucht, und sein Andenken 
+            <lb/>wird bey ihnen allen im Segen bleiben. 
+            <lb/>Nachdem er, wie schon gemeldet, seinen Ab⸗
+            <lb/>ruf von hier erhalten hatte, so schickte er sich nach 
+            <lb/>und nach zur Abreise nach <placename>Europa</placename>. Zur Aus⸗
+            <lb/>führung derselben hatte er jedoch, der bedenklichen 
+            <lb/>Zeitumstände wegen, nicht völlige Freudigkeit, 
+            <lb/>und es machte ihm dieses manchen Kummer und 
+            <lb/>Verlegenheit.<space unit="medium"> 	</space>Es gereichte ihm daher zu einer 
+            <lb/>neuen Ermunterung, als gegen das Ende des Jah⸗
+            <lb/>res <date when="1811">1811</date> die Nachricht einging, daß er zum Ge⸗
+            <lb/>meinhelfer in <placename>Gnadenfrey</placename> bestim̅t sey. Jndeß 
+            <lb/>waren seine Gesundheitsumstände bedenklich 
+            <lb/>geworden; doch gab er die Hoffnung nicht auf, die⸗
+            <lb/>se Bestim̅ung noch zu erreichen; welches auch der 
+            <lb/>Fall war, da er am <date when="1812-05-30">30 sten May 1812</date> von der Unit[äts]: 
+            <lb/>Aeltesten⸗ Conferenz einen Ruf an die Stelle des 
+            <lb/>sel[igen] <persName><addName>Br[uder]</addName> <foreName> Reichel</foreName></persName> zu einem Mitgliede des 
+            <lb/>Helfer⸗ Departements in der Unit[äts]: Aelt[esten]: Con⸗
+            <lb/>ferenz erhielt. Er freute sich mit Schaam und 
+            <lb/>					<catchwords>[Kustode: Beugung] </catchwords>
+            <pb n="16"/>
+            <lb/>Beugung der Gnaden, und Liebesabsichten des 
+            <lb/>Heilands über ihn, und die Gemeine in <placename>Beth⸗
+            <lb/>lehem</placename>, so wie alle Gemeinen, nahmen herzli⸗
+            <lb/>chen Antheil an seiner Freude, und man wünschte 
+            <lb/>mit ihm von Herzen, daß er diesem Ruf zu⸗
+            <lb/>folgen nach <placename>Europa</placename> reisen kön̅te. 	Dieses 
+            <lb/>wurde aber seiner Schwächlichkeit und Kräncklich⸗
+            <lb/>keit wegen von Zeit zu Zeit unwahrscheinlicher, und 
+            <lb/>er und wir kon̅ten nicht anders denken, als daß 
+            <lb/>der Heiland ihm durch diesen an ihn gelangten 
+            <lb/>Ruf habe zu erkennen geben wollen, daß er 
+            <lb/>mit seiner Willigkeit, seine Seelen, und Lei⸗
+            <lb/>beskräfte noch ferner Seinem Dienste zu weichen, 
+            <lb/>zufrieden sey.<space unit ="medium"> 	</space>Seiner lieben Collegen 
+            <lb/>in der Unit[äts]: Aelt[esten]: Conferenz gedachte er oft sehr 
+            <lb/>angelegentlich, und wünschte ihnen zu Ausrichtung 
+            <lb/>ihrer Geschäfte in den damaligen schwehren Zeiten 
+            <lb/>die kräftige Unterstützung des Heilandes. 
+            <lb/>Es schmerzte ihn sehr, daß die Correspondenz mit 
+            <lb/>ihnen ganz gehem̅t war. Da seine Schwachheit 
+            <lb/>ihn ganz außer Thätigkeit setzte, so ließ er doch 
+            <lb/>sein Gebet bey Tag und Nacht zum Heiland auf⸗
+            <lb/>steigen für Sein ganzes Gnadenwerck auf
+            <pb n="17"/>
+            <lb/>Erden, und besonders für die Brüder⸗ Unität.
+            <lb/>Hauptsächlich aber richtete er seine Sorge da⸗
+            <lb/>hin, sich täglich als ein armer Sünder im Blute 
+            <lb/>Jesu reinigen zu laßen zur seligen Vollendung
+            <lb/>seiner Gnadenwahl, welcher er mit Herzver⸗
+            <lb/>langen entgegensah.<space unit ="large">		</space>Nun wird er, ange⸗
+            <lb/>than mit Christi Blut und Gerechtigkeit in 
+            <lb/>die Lobgesänge der vollendeten Gerechten mit 
+            <lb/>einstim̅en, und Ruhm, Preis und Ehre bringen 
+            <lb/>dem Lam̅e, das geschlachtet ward. 
+            <lb/>Die Zeit seiner Wallfahrt hienieden hat ge⸗
+            <lb/>währt 75 Jahr 3 Monate und 16 Tage. 
+            <lb/>
+         </author>            
+        </body>
+   </text>
+</TEI>
+
+
