@@ -2429,7 +2429,7 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109102253521",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:22:53.521Z",
-	"dcterms:modified": "2025-01-09T09:22:53.521Z",
+	"dcterms:modified": "2025-01-09T09:27:00.399Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -2461,7 +2461,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
-		"rdf:value": "02-25"
+		"rdf:value": "1814-02-25"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2951,7 +2951,7 @@
             <lb/>Gemeinversam̅lungen ersetzt wurde. 		Am 
             <lb/>liebsten ließ er sich Verse, die vom Heimgange 
             <lb/>zum Herrn und von der vollendeten Gemeine 
-            <lb/>handeln, singen.<space unit="small"> 	</space><date when="1814-02-25">Am <date when="02-25">25 sten dieses Mo⸗
+            <lb/>handeln, singen.<space unit="small"> 	</space><date when="1814-02-25">Am <date when="1814-02-25">25 sten dieses Mo⸗
             <lb/>nachts /Febr:/</date></date> da seine Schwäche seit einigen Tagen 
             <lb/>sehr zugenom̅en hatte, bemerkte man gleich frühe, 
             <lb/>daß seine Sehnsucht bald werde gestillt werden. 
