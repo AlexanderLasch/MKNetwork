@@ -3007,7 +3007,7 @@
             </author>
                 <author type="Ich-Erzähler">
             <lb/>Ich bin geboren den <date when="1740-11-07">7ten Novmbr: 1740</date> zu 
-            <lb/><placeName>Angermunde</placeName> in <placeName key="Courland" ref="http://dbpedia.org/resource/Courland">Curland</placeName>, woselbst mein l[ieber] 
+            <lb/><placename><placeName>Angermunde</placeName></placename> in <placename><placeName key="Courland" ref="http://dbpedia.org/resource/Courland">Curland</placeName></placename>, woselbst mein l[ieber] 
             <lb/><relationName type="Vater"> Vater</relationName> Prediger war, ein treuer Zeuge Jesu, 
             <lb/>welcher er auch unabläßig blieb bis zu seinem 
             <lb/>Heimgang den <date when="1780-08-02">2ten August 1780</date>. Meine <persname> <relationName type="Mutter">Mutter </relationName>
