@@ -2448,7 +2448,7 @@
 			},
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
-				"oa:start": 5096,
+				"oa:start": 5085,
 				"oa:end": 9
 			}
 		}
@@ -2693,7 +2693,7 @@
 			},
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
-				"oa:start": 12984,
+				"oa:start": 12973,
 				"oa:end": 16
 			}
 		}
@@ -8226,8 +8226,9 @@
             <lb/>mahl der verehlichten Geschwister halten. 
             <lb/>Als wir in Gesellschaft der <persName> Geschw[ister] <foreName><persName key="Reichel" ref="http://www.wikidata.org/entity/Q21446762">Reichel</persName></foreName> </persName>nach 
             <lb/><placename><placeName key="Bethlehem" ref="http://www.wikidata.org/entity/Q164380">Bethlehem</placeName></placename> zurückgekehrt waren, so übergab er 
-            <lb/>seine Geschäfte als Præses der Helfer⸗Confe⸗
-            <lb/>renz fürs Ganze der <placename>pensilvanischen und umlie⸗
+            <lb/>seine Geschäfte als Præses der <orgName>Helfer⸗Confe⸗
+<lb/>
+renz</orgName> fürs Ganze der <placename>pensilvanischen und umlie⸗
             <lb/>genden Gegenden</placename>, und als Gemeinhelfer und Pre⸗
             <lb/>diger der hiesigen Gemeine, an<persName><addName> Br[uder] </addName><foreName><persName key="Reichel" ref="http://www.wikidata.org/entity/Q21446762">Reichel</persName></foreName></persName>
             <lb/>Den Som̅er hindurch ging es mit seiner Gesund⸗
