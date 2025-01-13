@@ -7447,6 +7447,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122824304",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-13T11:28:24.304Z",
+	"dcterms:modified": "2025-01-13T11:28:24.304Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122824304#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122824304#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[2]/rs[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q111161",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122846330",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-13T11:28:46.330Z",
+	"dcterms:modified": "2025-01-13T11:28:46.330Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122846330#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122846330#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[2]/rs[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q111161",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
@@ -7588,7 +7746,7 @@
             <lb/>gelii</rs> in der dortigen <orgName key="Moravian Church" ref="http://www.wikidata.org/entity/Q159318">Brüderkirche</orgName> übernahm. 
             <lb/>Die Besorgung des weitläufigen Plans in <placename><placeName key="Livonia" ref="http://www.wikidata.org/entity/Q183464">Lief⸗
             <lb/>land</placeName></placename> erforderte es, daß ich viel herumreisen mußte. 
-            <lb/>Auf dem Synodo <date><date when="1789">1789</date></date> erhielt ich meine Amstel⸗
+            <lb/>Auf dem <rs key="synod" ref="http://www.wikidata.org/entity/Q111161">Synodo</rs> <date><date when="1789">1789</date></date> erhielt ich meine Amstel⸗
             <lb/>lung als Gemeinhelfer und Ehechorpfleger in 
             <lb/><placename><placeName key="Piława Górna" ref="http://dbpedia.org/resource/Piława_Górna">Gnadenfrey</placeName></placename>.<space unit="medium"> 	</space>Hier erlebte ich den bekan̅ten 
             <lb/>großen Brand <date><date when="1792">1792</date></date>, so wie den Wiederaufbau 
@@ -7596,7 +7754,7 @@
             <lb/>nach <placename><placeName key="Niesky" ref="http://www.wikidata.org/entity/Q165160">Niesky</placeName></placename>, wo ich als Gemeinhelfer und Ehechor⸗
             <lb/>pfleger angestellt war, bis ich <date><date when="1798" cert="high">1798</date></date> nach <placename>Herrn⸗
             <lb/>hut</placename> berufen wurde. Hier war ich <date notafter="1802">bis <date when="1802">1802</date></date>, 
-            <lb/>da ich vom Synodo <date><date when="1801" cert="high">1801</date></date> den Auftrag erhalten hatte, 
+            <lb/>da ich vom <rs key="synod" ref="http://www.wikidata.org/entity/Q111161">Synodo</rs> <date><date when="1801" cert="high">1801</date></date> den Auftrag erhalten hatte, 
             <lb/>nach <placename><placeName key="North America" ref="http://www.wikidata.org/entity/Q49">Nordamerica</placeName></placename> zu gehen, daselbst die Sache 
             <lb/>des Herrn ins Ganze in den <placename>pensilvanischen und 
             <lb/>umliegenden Gemeinen</placename>, und der Gemeine in 
