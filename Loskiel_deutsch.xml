@@ -533,7 +533,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109101049386",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:10:49.386Z",
-	"dcterms:modified": "2025-01-09T09:10:49.386Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -559,20 +558,8 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109101049386#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/author[2]"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/author[2]/date[5]"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 1561,
-				"oa:end": 21
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[2]/date[5]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -5296,7 +5283,7 @@
                 <author type="Ich-Erzähler">
             <lb/>Ich bin geboren den <date when="1740-11-07">7ten Novmbr: 1740</date> zu 
             <lb/><placename><placeName>Angermunde</placeName></placename> in <placename><placeName key="Courland" ref="http://dbpedia.org/resource/Courland">Curland</placeName></placename>, woselbst mein l[ieber] 
-            <lb/> Vater Prediger war, ein treuer Zeuge Jesu, 
+            <lb/>Vater Prediger war, ein treuer Zeuge Jesu, 
             <lb/>welcher er auch unabläßig blieb bis zu seinem 
             <lb/>Heimgang den <date when="1780-08-02">2ten August 1780</date>. Meine <persname> <relationName type="Mutter">Mutter </relationName>
             <lb/>war eine geborne <surName type="geburtsname">Hoffman̅</surName></persname>, aus <placename><placeName key="Livonia" ref="http://www.wikidata.org/entity/Q183464" cert="medium">Liefland</placeName></placename> ge⸗
@@ -5321,8 +5308,8 @@
             <lb/>da ich, nachdem ich 3 Jahre um die Erlaubniß zur
             <lb/>Brüdergemeine gebeten, und nun dieselbe end⸗
             <lb/>lich erhalten hatte, in seiner Gesellschaft über 
-            <lb/><placename><placeName key="Sweden" ref="http://www.wikidata.org/entity/Q34" cert="high">Schweden</placeName></placename> bey der Gemeine in <placename><placeName key="Barby" ref="http://www.wikidata.org/entity/Q127429725">Barby</placeName></placename> am <date when="1759-07-05">5ten
-            <lb/>July deßelben Jahres </date> ankam.<space unit="medium">          </space>Am <date when="1759-12-26"> <date when="1749-12-26">26 sten Decbr</date>:</date> 
+            <lb/><placename><placeName key="Sweden" ref="http://www.wikidata.org/entity/Q34" cert="high">Schweden</placeName></placename> bey der Gemeine in <placename><placeName key="Barby" ref="http://www.wikidata.org/entity/Q127429725">Barby</placeName></placename> am <date when="1759-07-05">5<date>ten
+            <lb/>July</date> deßelben Jahres </date> ankam.<space unit="medium">          </space>Am <date when="1759-12-26"> <date when="1749-12-26">26 sten Decbr</date>:</date> 
             <lb/>wurde ich in die Gemeine aufgenom̅en, und am 
             <lb/><date when="1760-09-30"> <date when="1760-09-30">30 sten Septbr. 1760</date></date> des h[eiligen] Abendmahls zum er⸗
             <lb/>stenmal mit der Gemeine theilhaftig. 
