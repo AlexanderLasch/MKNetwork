@@ -6736,6 +6736,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121240392",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-13T11:12:40.392Z",
+	"dcterms:modified": "2025-01-13T11:12:40.392Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121240392#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121240392#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author/head/title/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://d-nb.info/gnd/1086668596",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
@@ -6773,7 +6852,7 @@
               2.) Der am <date when="1814-02-28"> <date when="1814-02-10" cert="high">28 sten Febr: 1814</date></date> in <placename><placeName key="Bethlehem" ref="http://www.wikidata.org/entity/Q164380">Bethlehem</placeName></placename> selig 
               <lb/>vollendete verheir[atete]: Bruder <persName key="Loskiel, Georg Heinrich, 1740-1814" ref="http://viaf.org/viaf/290148995912059750599/" role="aut" type="real">Georg Heinrich Loskiel</persName>, Bischof der <orgName key="Moravian Church" ref="http://www.wikidata.org/entity/Q159318">Brüderkirche</orgName> und
               <lb/>designiertes Mitglied des Helfer ⸗ Depar⸗
-              <lb/>tements in der Unit: Aelt: Conferenz,
+              <lb/>tements in der <orgName key="Unitäts-Aeltesten-Conferenz" ref="https://d-nb.info/gnd/1086668596">Unit: Aelt: Conferenz</orgName>,
               <lb/>hat folgende kurze Nachricht von seinem Le⸗
               <lb/>benslauf hinterlaßen.                          
                     </title>
