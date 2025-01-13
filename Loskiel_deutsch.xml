@@ -2411,6 +2411,7 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109102330892",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:23:30.892Z",
+	"dcterms:modified": "2025-01-09T09:23:30.892Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -2447,7 +2448,7 @@
 			},
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
-				"oa:start": 5100,
+				"oa:start": 5099,
 				"oa:end": 9
 			}
 		}
@@ -2655,6 +2656,7 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?date_annotation_20250109102841839",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:28:41.839Z",
+	"dcterms:modified": "2025-01-09T09:28:41.839Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -2691,7 +2693,7 @@
 			},
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
-				"oa:start": 12988,
+				"oa:start": 12987,
 				"oa:end": 16
 			}
 		}
@@ -5762,6 +5764,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250113113026316",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-13T10:30:26.316Z",
+	"dcterms:modified": "2025-01-13T10:30:26.316Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250113113026316#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250113113026316#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[3]/persName[3]/foreName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q111765494",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
@@ -5944,7 +6025,7 @@
             <lb/>Presbyter der Brüderkirche erhalten hat, und 
             <lb/>daß er vor seiner Abreise nach <placename><placeName key="United States" ref="http://www.wikidata.org/entity/Q30">America</placeName></placename> 
             <lb/>am <date when="1902-03-14">14 ten Merz 1902 </date> durch den Br[uder] <persName key="Johann Friedrich Reichel" ref="http://www.wikidata.org/entity/Q113678446">Joh, Friedr. 
-            <lb/>Reichel</persName> unter Assistenz der <persName><addName>Brüder</addName> </persName> <persName><foreName>Liebisch </foreName>
+            <lb/>Reichel</persName> unter Assistenz der <persName><addName>Brüder</addName> </persName> <persName><foreName><persName key="Liebisch" ref="http://www.wikidata.org/entity/Q111765494">Liebisch</persName> </foreName>
             <pb n="[7]"/>
             <lb/>und<foreName> Hubner</foreName></persName> zu einem Bischof der Brüderkirche 
             <lb/>confecrirt worden ist. 
