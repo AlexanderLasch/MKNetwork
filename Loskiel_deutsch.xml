@@ -6815,6 +6815,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121321013",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-13T11:13:21.013Z",
+	"dcterms:modified": "2025-01-13T11:13:21.013Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121321013#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121321013#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[2]/persname/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Moravian_Church",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121348951",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-13T11:13:48.951Z",
+	"dcterms:modified": "2025-01-13T11:13:48.951Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ancharo",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Chantal Ross"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121348951#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?organization_annotation_20250113121348951#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Moravian_Church",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
@@ -6881,12 +7039,12 @@
             <lb/>der Stille an mir that, wovon gleichwol noch in 
             <lb/>der Ewigkeit meine Loblieder tönen werden. 
             <lb/>Im <date when="1748">Jahr <date when="1748">1748</date></date> kam der <persname> Br[uder] <foreName>Joh.</foreName> <surName>Hüffel</surName> aus
-            <lb/>der Brüdergemeine als <roleName type="beruflich">Kinderlehrer in mei⸗
+            <lb/>der <orgName key="Moravian Church" ref="http://dbpedia.org/resource/Moravian_Church">Brüdergemeine</orgName> als <roleName type="beruflich">Kinderlehrer in mei⸗
             <lb/>nes <relationName type="Vater">Vaters</relationName> Haus</roleName></persname>, und blieb bis <date><date when="1759">1759</date></date> daselbst; 
             <lb/>da ich, nachdem ich 3 Jahre um die Erlaubniß zur
             <lb/>Brüdergemeine gebeten, und nun dieselbe end⸗
             <lb/>lich erhalten hatte, in seiner Gesellschaft über 
-            <lb/><placename><placeName key="Sweden" ref="http://www.wikidata.org/entity/Q34" cert="high">Schweden</placeName></placename> bey der Gemeine in <placename><placeName key="Barby" ref="http://www.wikidata.org/entity/Q127429725">Barby</placeName></placename> am <date when="1759-07-05">5<date>ten
+            <lb/><placename><placeName key="Sweden" ref="http://www.wikidata.org/entity/Q34" cert="high">Schweden</placeName></placename> bey der <orgName key="Moravian Church" ref="http://dbpedia.org/resource/Moravian_Church">Gemeine</orgName> in <placename><placeName key="Barby" ref="http://www.wikidata.org/entity/Q127429725">Barby</placeName></placename> am <date when="1759-07-05">5<date>ten
             <lb/>July</date> deßelben Jahres </date> ankam.<space unit="medium">          </space>Am <date when="1759-12-26"> <date when="1749-12-26">26 sten Decbr</date>:</date> 
             <lb/>wurde ich in die Gemeine aufgenom̅en, und am 
             <lb/><date when="1760-09-30"> <date when="1760-09-30">30 sten Septbr. 1760</date></date> des h[eiligen] Abendmahls zum er⸗
