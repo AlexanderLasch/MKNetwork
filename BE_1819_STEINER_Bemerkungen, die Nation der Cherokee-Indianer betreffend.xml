@@ -2626,6 +2626,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116102006989",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-16T09:20:06.989Z",
+	"dcterms:modified": "2025-01-16T09:20:06.989Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/tessapohle",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Tessa Pohle"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116102006989#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116102006989#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[8]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q36747",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -2746,7 +2825,7 @@
         <lb/>sind. Der Plan hierzu war dem <persName key="George Washington" ref="http://www.wikidata.org/entity/Q23">Präsidenten Was-
         <lb type="worddiv"/>hington</persName> durch den <persName key="Benjamin Hawkins" ref="http://www.wikidata.org/entity/Q2896102">Colonel Benjamin Hawkins</persName>
         <lb/>vorgelegt worden und hatte Genehmigung erhalten.
-        <lb/>Vermöge dessen fanden die Indianer nunmehr Schutz
+        <lb/>Vermöge dessen fanden die <orgName key="Indigenous peoples of the Americas" ref="http://www.wikidata.org/entity/Q36747">Indianer</orgName> nunmehr Schutz
         <lb/>gegen die weißen Leute. Damit jene nicht ferner von
         <lb/>den Krämern übervortheilt und zur Wiedervergeltung
         <lb/>gereizt werden möchten, wurden Factoreyen zum Han-
