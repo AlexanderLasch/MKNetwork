@@ -1995,6 +1995,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116101439214",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-16T09:14:39.214Z",
+	"dcterms:modified": "2025-01-16T09:14:39.214Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/tessapohle",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Tessa Pohle"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116101439214#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116101439214#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q36747",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116101456830",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-16T09:14:56.830Z",
+	"dcterms:modified": "2025-01-16T09:14:56.830Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/tessapohle",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Tessa Pohle"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116101456830#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/BE_1819_STEINER_Bemerkungen%2C%20die%20Nation%20der%20Cherokee-Indianer%20betreffend.xml?organization_annotation_20250116101456830#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[7]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/Half-breed",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -2096,8 +2254,8 @@
         <lb/>manche von ihnen sind doch im Lande geblieben. Auch
         <lb/>hat ihre Zahl sowol durch sie selbst, als auch durch Neu-
         <lb type="worddiv"/>angekaufte bedeutend zugenommen.</p>
-    <p>Die eigentlichen Indianer folgten dem Beyspiel der
-        <lb/>Halb-Indianer, und so schritt die Cultur zu einer hö
+    <p>Die eigentlichen <orgName key="Indigenous peoples of the Americas" ref="http://www.wikidata.org/entity/Q36747">Indianer</orgName> folgten dem Beyspiel der
+        <lb/><orgName key="Half-breed" ref="http://dbpedia.org/resource/Half-breed">Halb-Indianer</orgName>, und so schritt die Cultur zu einer hö
         <lb type="worddiv"/>hern Stufe. Sie würde sich noch schneller gehoben
         <lb/>haben, wenn nicht immer neue Zwistigkeitcn zwischen
         <lb/>den Cherokeesen und den weißen Grenzbewohnern ent-
