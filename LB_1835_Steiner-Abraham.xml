@@ -259,6 +259,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250125182648321",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-25T17:26:48.321Z",
+	"dcterms:modified": "2025-01-25T17:26:48.321Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gustepohland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Karsten Sacher"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250125182648321#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250125182648321#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[26]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q86540",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -1050,8 +1129,8 @@ Hall</placeName>, sowol von Friedenshütten als aus den obern
             <lb type="worddiv"/>ten; denn würde es bekannt, daß wir deshalb ge-
             <lb type="worddiv"/>kommen wären, so könne solches der Indianer-
             <lb type="worddiv"/>Gemeine Noth und Gefahr von den Widriggesinn-
-            <lb type="worddiv"/>ten zuziehen. — Der ehrwürdige Missionar David
-            <lb/>Zeisberger hätte mich gern bei sich behalten, und
+            <lb type="worddiv"/>ten zuziehen. — Der ehrwürdige Missionar <persName key="David Zeisberger" ref="http://www.wikidata.org/entity/Q86540">David
+            <lb/>Zeisberger</persName> hätte mich gern bei sich behalten, und
             <lb/>that mir den Vorschlag, da zu bleiben. Auf
             <lb/>meine Einwendung, daß ich hiezu weder Anwei-
             <lb type="worddiv"/>sung noch Erlaubniß von der Behörde in Bethle-
