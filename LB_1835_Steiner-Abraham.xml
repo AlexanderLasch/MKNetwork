@@ -338,6 +338,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125182844494",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-25T17:28:44.494Z",
+	"dcterms:modified": "2025-01-25T17:28:44.494Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gustepohland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Karsten Sacher"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125182844494#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125182844494#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[7]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1771-01-01/1771-01-31"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -460,7 +538,7 @@ Hall</placeName>, sowol von Friedenshütten als aus den obern
             <lb/>ohne Eindrücke von der Liebe meines Erlösers zu
             <lb/>mir, aber doch ohne daß ich viele besondere Er-
             <lb type="worddiv"/>fahrungen gemacht hätte.</p>
-        <p>Im Januar 1771 wurde ich in das Chor
+        <p>Im <date from="1771-01-01" to="1771-01-31">Januar 1771</date> wurde ich in das Chor
             <lb/>der größern Knaben versetzt. Das mancherlei
             <pb n="661"/>
             <lb/>Warnende, welches uns zuvor von den uns bevor-
