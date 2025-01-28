@@ -294,7 +294,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250125182648321",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-25T17:26:48.321Z",
-	"dcterms:modified": "2025-01-25T17:26:48.321Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
@@ -321,7 +320,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250125182648321#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[26]/persName"
+			"rdf:value": "TEI/text/body/div/div/p[25]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -373,7 +372,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125182844494",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-25T17:28:44.494Z",
-	"dcterms:modified": "2025-01-25T17:28:44.494Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
@@ -400,7 +398,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125182844494#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[7]/date"
+			"rdf:value": "TEI/text/body/div/div/date"
 		}
 	},
 	"oa:hasBody": {
@@ -1030,7 +1028,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128130319904#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[7]/note"
+			"rdf:value": "TEI/text/body/div/div/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1109,7 +1107,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?place_annotation_20250128130424809#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[7]/placeName[2]"
+			"rdf:value": "TEI/text/body/div/div/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1188,12 +1186,91 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250128130524448#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[7]/date[2]"
+			"rdf:value": "TEI/text/body/div/div/date[2]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
 		"rdf:value": "1772-01-01/1772-12-31"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128130743173",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-28T12:07:43.173Z",
+	"dcterms:modified": "2025-01-28T12:07:43.173Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gustepohland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Karsten Sacher"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128130743173#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128130743173#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/placeName[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Nazareth Hall oder Nazareth Hall Tract?"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1326,7 +1403,7 @@ Hall</placeName>, sowol von <placeName>Friedenshütten</placeName> als aus den o
             <lb/>ohne Eindrücke von der Liebe meines Erlösers zu
             <lb/>mir, aber doch ohne daß ich viele besondere Er-
             <lb type="worddiv"/>fahrungen gemacht hätte.</p>
-        <p>Im <date from="1771-01-01" to="1771-01-31">Januar 1771</date> wurde ich in das Chor
+        Im <date from="1771-01-01" to="1771-01-31">Januar 1771</date> wurde ich in das Chor
             <lb/>der größern Knaben versetzt. Das mancherlei
             <pb n="661"/>
             <lb/>Warnende, welches uns zuvor von den uns bevor-
@@ -1393,7 +1470,7 @@ Hall</placeName>, sowol von <placeName>Friedenshütten</placeName> als aus den o
             <pb n="663"/>
             <lb/>mancherlei Einschränkungen nothwendig Statt fin-
             <lb type="worddiv"/>den müssen. O wie oft habe ich da beim Anblick
-            <lb/>von <placeName/><placeName>Nazareth-Hall</placeName> mich gesehnt, wieder innerhalb
+            <lb/>von <placeName/><placeName>Nazareth-<note>Nazareth Hall oder Nazareth Hall Tract?</note>Hall</placeName> mich gesehnt, wieder innerhalb
             <lb/>dessen Mauern sein zu können, zumal da ich ver-
             <lb type="worddiv"/>nahm, daß die Jugend nicht mehr so beschränkt
             <lb/>sei, wie ehedem. Meine Wißbegierde war wieder
@@ -1448,7 +1525,7 @@ Hall</placeName>, sowol von <placeName>Friedenshütten</placeName> als aus den o
             <lb/>für mich, daß zu damaliger Zeit das Land noch
             <lb/>nicht wie heut zu Tage mit einer Flut von Ro-
             <lb type="worddiv"/>manen überschwemmt war, — wer weiß, was
-            <lb/>sonst aus mir geworden wäre.</p>
+            <lb/>sonst aus mir geworden wäre.
         <p>Die vermeintliche Strenge meines Vaters
             <lb/>gegen mich verleitete mich einigemal, ihm zu ent-
             <lb type="worddiv"/>laufen, doch kam ich nach einigen Wochen immer
