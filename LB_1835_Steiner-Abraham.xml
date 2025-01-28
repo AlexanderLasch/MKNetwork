@@ -57,7 +57,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20241212103330668",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-12-12T09:33:30.668Z",
-	"dcterms:modified": "2024-12-12T09:33:30.668Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/tessapohle",
 		"@type": [
@@ -84,7 +83,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20241212103330668#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p/date"
+			"rdf:value": "TEI/text/body/div/p/date"
 		}
 	},
 	"oa:hasBody": {
@@ -135,7 +134,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250109095454906",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T08:54:54.906Z",
-	"dcterms:modified": "2025-01-09T08:54:54.906Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
@@ -162,7 +160,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250109095454906#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p/persName"
+			"rdf:value": "TEI/text/body/div/p/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -214,7 +212,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250109104210576",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-09T09:42:10.576Z",
-	"dcterms:modified": "2025-01-09T09:42:10.576Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
@@ -241,7 +238,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250109104210576#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/head/persName"
+			"rdf:value": "TEI/text/body/div/head/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -320,7 +317,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250125182648321#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[25]/persName"
+			"rdf:value": "TEI/text/body/div/p[25]/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -398,7 +395,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125182844494#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/date"
+			"rdf:value": "TEI/text/body/div/date"
 		}
 	},
 	"oa:hasBody": {
@@ -449,7 +446,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125190507221",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-25T18:05:07.221Z",
-	"dcterms:modified": "2025-01-25T18:05:07.221Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
@@ -476,7 +472,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250125190507221#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[3]/p[5]/date"
+			"rdf:value": "TEI/text/body/div/div[2]/p[5]/date"
 		}
 	},
 	"oa:hasBody": {
@@ -554,7 +550,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128123044575#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[4]/note"
+			"rdf:value": "TEI/text/body/div/p[4]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -633,7 +629,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250128124255750#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[4]/persName[2]"
+			"rdf:value": "TEI/text/body/div/p[4]/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -712,7 +708,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250128125129965#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[4]/persName[4]"
+			"rdf:value": "TEI/text/body/div/p[4]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -791,7 +787,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?place_annotation_20250128125419277#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[4]/placeName[3]"
+			"rdf:value": "TEI/text/body/div/p[4]/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -870,7 +866,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128125642352#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[5]/note"
+			"rdf:value": "TEI/text/body/div/p[5]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -949,7 +945,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128125747364#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[5]/note[2]"
+			"rdf:value": "TEI/text/body/div/p[5]/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1028,7 +1024,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128130319904#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/note"
+			"rdf:value": "TEI/text/body/div/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1107,7 +1103,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?place_annotation_20250128130424809#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/placeName[2]"
+			"rdf:value": "TEI/text/body/div/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1186,7 +1182,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?date_annotation_20250128130524448#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/date[2]"
+			"rdf:value": "TEI/text/body/div/date[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1264,7 +1260,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128130743173#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/placeName[4]/note"
+			"rdf:value": "TEI/text/body/div/placeName[4]/note"
 		}
 	},
 	"oa:hasBody": {
@@ -1281,11 +1277,90 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128134213637",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-28T12:42:13.637Z",
+	"dcterms:modified": "2025-01-28T12:42:13.637Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gustepohland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Karsten Sacher"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128134213637#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128134213637#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Place oder Borough"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
             <div>
-    <div>
+    
         <head>Lebenslauf 
             <lb/>des verwitweten Bruders <persName key="Abraham Steiner" ref="http://www.wikidata.org/entity/Q131715277" cert="high">Abraham Steiner</persName>,
             <lb/>heimgegangen zu Salem in Nord-Caro-
@@ -1509,7 +1584,7 @@ Hall</placeName>, sowol von <placeName>Friedenshütten</placeName> als aus den o
             <lb/>Nazareth so selten, daß ich nur wenige erhalten
             <lb/>konnte. Jedes Buch aber, das ich in die Hände
             <lb/>bekam, verschlang ich mit unersättlicher Begierde.
-            <lb/>Von Nazareth erhielt ich großentheils nur Gemein-
+            <lb/>Von Nazareth<note>Place oder Borough</note> erhielt ich großentheils nur Gemein-
             <lb/>Schriften, die ich oftmals durchlas. Zu Hause
             <lb/>besaßen wir, außer der Bibel und den damaligen
             <lb/>Gesangbüchern, nur noch einige Bände Reden und
@@ -4167,7 +4242,7 @@ Hall</placeName>, sowol von <placeName>Friedenshütten</placeName> als aus den o
                 <lb/>am <date>25. Januar 1827</date>.
                 <lb/><persName>Abraham Steiner</persName>.
             </byline>
-    </div>
+    
     <div>
         <pb n="750"/>
         <head>Nachtrag vom 24. Sept. 1832.</head>
