@@ -1115,6 +1115,84 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_eng.xml?date_annotation_20250130163931282",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-01-30T15:39:31.282Z",
+	"dcterms:modified": "2025-01-30T15:39:31.282Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/liesafee",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Liesa Fellmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_eng.xml?date_annotation_20250130163931282#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_eng.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_eng.xml?date_annotation_20250130163931282#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/date[32]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1812-05-30"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>  
     
   <text>
@@ -1420,8 +1498,8 @@
                 <lb/>But in the mean time his health had much declined, 
                 <lb/>he did not however give up the hope of being able
                 <lb/>to make the journey, which continued to be the case
-                <lb/>when on the <date when="1812-05-30">30 May 1812</date>, he received a call
-                <lb/>from the <orgName>Unity’s elders conference</orgName>, to be a member
+                <lb/>when on the <date when="1812-05-30"><date when="1812-05-30">30 May 1812</date></date>, he received a call
+                <lb/>from the <orgName><orgName>Unity’s elders conference</orgName></orgName>, to be a member
                 <lb/>of the late B. <persName>Jeremy Reisler</persName>. He rejoiced, with un-
                 <lb type="worddiv"/>feigned loneliness of heart, at the gracious views of
                 <lb/>our Lord with him; &amp; the cong.n at <placeName type="settlement">Bethlehem</placeName>,
