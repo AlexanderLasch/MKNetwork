@@ -1390,7 +1390,7 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?person_annotation_20250203144604470",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-02-03T13:46:04.470Z",
-	"dcterms:modified": "2025-02-03T13:46:04.470Z",
+	"dcterms:modified": "2025-02-03T13:47:01.466Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
