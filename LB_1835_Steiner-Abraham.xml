@@ -1233,7 +1233,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128134213637",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-28T12:42:13.637Z",
-	"dcterms:modified": "2025-01-28T12:42:13.637Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/gustepohland",
 		"@type": [
@@ -1260,13 +1259,92 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250128134213637#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/note[2]"
+			"rdf:value": "TEI/text/body/div/note[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
 		"rdf:value": "Place oder Borough"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250203144241799",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-03T13:42:41.799Z",
+	"dcterms:modified": "2025-02-03T13:42:41.799Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gustepohland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Karsten Sacher"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250203144241799#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/LB_1835_Steiner-Abraham.xml?note_annotation_20250203144241799#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Vater von Abraham Steiner"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1427,7 +1505,7 @@ Hall</placeName>, sowol von <placeName>Friedenshütten</placeName> als aus den o
             <lb/>würde mir gänzlich unbekannt geblieben sein, wenn
             <lb/>ich nicht bisweilen in Abwesenheit deS ersten Leh-
             <lb type="worddiv"/>rers in die auf dem Tisch liegenden Bücher heim-
-            <lb type="worddiv"/>lich einen Blick gethan hätte. Mein Vater<note>Vater von David Zeisberger, ebenfalls, Vorname David, ohne Lebensdaten</note> wünschte,
+            <lb type="worddiv"/>lich einen Blick gethan hätte. Mein Vater<note type="researchNote">Vater von Abraham Steiner</note><note>Vater von David Zeisberger, ebenfalls, Vorname David, ohne Lebensdaten</note> wünschte,
             <lb/>daß ich mich dem Studiren widmen möchte, wo-
             <lb type="worddiv"/>zu es mir auch eine Zeit lang nicht an Lust ge-
             <lb type="worddiv"/>fehlt hatte. Diese aber verlor sich wieder, weil
