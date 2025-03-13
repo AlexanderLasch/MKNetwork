@@ -6036,7 +6036,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250113113657345",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-13T10:36:57.345Z",
-	"dcterms:modified": "2025-01-13T10:36:57.345Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -6063,7 +6062,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250113113657345#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/author[2]/persName[3]"
+			"rdf:value": "TEI/text/body/author[2]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -6364,7 +6363,6 @@
 	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250113120217866",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-13T11:02:17.866Z",
-	"dcterms:modified": "2025-01-13T11:02:17.866Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -6402,7 +6400,7 @@
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
 				"oa:start": 0,
-				"oa:end": 2423
+				"oa:end": 2424
 			}
 		}
 	},
@@ -7242,10 +7240,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113121857339",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113121857339",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-13T11:18:57.339Z",
-	"dcterms:modified": "2025-01-13T11:18:57.339Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -7256,7 +7253,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113121857339#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113121857339#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
@@ -7270,7 +7267,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113121857339#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113121857339#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/author[2]/rs"
 		}
@@ -7321,10 +7318,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122033270",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122033270",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-13T11:20:33.270Z",
-	"dcterms:modified": "2025-01-13T11:20:33.270Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -7335,7 +7331,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122033270#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122033270#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
@@ -7349,7 +7345,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122033270#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122033270#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/author[2]/rs[2]"
 		}
@@ -7479,10 +7475,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122824304",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122824304",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-13T11:28:24.304Z",
-	"dcterms:modified": "2025-01-13T11:28:24.304Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -7493,7 +7488,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122824304#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122824304#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
@@ -7507,7 +7502,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122824304#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122824304#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/author[2]/rs[3]"
 		}
@@ -7558,10 +7553,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122846330",
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122846330",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-01-13T11:28:46.330Z",
-	"dcterms:modified": "2025-01-13T11:28:46.330Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ancharo",
 		"@type": [
@@ -7572,7 +7566,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122846330#Target",
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122846330#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
@@ -7586,7 +7580,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?rs_annotation_20250113122846330#Selector",
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?thing_annotation_20250113122846330#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/author[2]/rs[4]"
 		}
@@ -9263,6 +9257,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250313122242930",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-03-13T11:22:42.930Z",
+	"dcterms:modified": "2025-03-13T11:22:42.930Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AlexanderLasch",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alexander Lasch"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250313122242930#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/AlexanderLasch/MKNetwork/main/Loskiel_deutsch.xml?person_annotation_20250313122242930#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/author[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q123464542",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><editionStmt>
            <edition>
                 <titel>Missionen der Brüder-Unität in Nordamerika, Pennsylvania</titel>
@@ -9375,7 +9448,7 @@
             <lb/>erhalten wird bis zum Uebergang in Seinen Arm 
            <lb/>und Schoos.<space unit="medium"> 		</space>In <placename><placeName key="Barby, Germany" ref="http://dbpedia.org/resource/Barby,_Germany" cert="medium">Barby</placeName></placename> studirte 
             <lb/>ich Theologie und Medicin, entschloß mich aber, 
-            <lb/>mich nur vom l. Heiland brauchen zu laßen, 
+            <lb/>mich nur vom l. <persName key="Christiane Amalie Kühnel" ref="http://www.wikidata.org/entity/Q123464542">Heiland</persName> brauchen zu laßen, 
             <lb/>wie es Ihm wohl gefiele, ohne mir einen beson⸗
             <lb/>dern Plan zu machen, und nur daraus zu 
             <lb/>sehen, daß sein Herze mit mir sey. 
